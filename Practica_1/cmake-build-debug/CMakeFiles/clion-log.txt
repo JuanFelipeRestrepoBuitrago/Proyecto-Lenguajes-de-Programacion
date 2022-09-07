@@ -1,4 +1,4 @@
-"D:\Aplicaciones\CLion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Aplicaciones/CLion/CLion 2022.2.1/bin/ninja/win/ninja.exe" -G Ninja -S "D:\Archivos de Aplicaciones\CLion\PROJECTS\Lenguajes de Programacion\ProyectoLenguajesProgramacion" -B "D:\Archivos de Aplicaciones\CLion\PROJECTS\Lenguajes de Programacion\ProyectoLenguajesProgramacion\cmake-build-debug"
+"D:\Aplicaciones\CLion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Aplicaciones/CLion/CLion 2022.2.1/bin/ninja/win/ninja.exe" -G Ninja -S "D:\Archivos de Aplicaciones\CLion\PROJECTS\Lenguajes de Programacion\Proyecto\Practica_1" -B "D:\Archivos de Aplicaciones\CLion\PROJECTS\Lenguajes de Programacion\Proyecto\Practica_1\cmake-build-debug"
 -- The C compiler identification is MSVC 19.29.30145.0
 -- The CXX compiler identification is MSVC 19.29.30145.0
 -- Detecting C compiler ABI info
@@ -13,4 +13,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/Archivos de Aplicaciones/CLion/PROJECTS/Lenguajes de Programacion/ProyectoLenguajesProgramacion/cmake-build-debug
+-- Build files have been written to: D:/Archivos de Aplicaciones/CLion/PROJECTS/Lenguajes de Programacion/Proyecto/Practica_1/cmake-build-debug

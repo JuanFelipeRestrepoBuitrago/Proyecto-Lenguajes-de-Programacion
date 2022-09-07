@@ -39,7 +39,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/Archivos de Aplicaciones/CLion/PROJECTS/Lenguajes de Programacion/ProyectoLenguajesProgramacion/cmake-build-debug"
+			"value" : "d:/Archivos de Aplicaciones/CLion/PROJECTS/Lenguajes de Programacion/Proyecto/Practica_1/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Archivos de Aplicaciones/CLion/PROJECTS/Lenguajes de Programacion/ProyectoLenguajesProgramacion"
+			"value" : "D:/Archivos de Aplicaciones/CLion/PROJECTS/Lenguajes de Programacion/Proyecto/Practica_1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1063,7 +1063,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Archivos de Aplicaciones/CLion/PROJECTS/Lenguajes de Programacion/ProyectoLenguajesProgramacion/cmake-build-debug"
+			"value" : "D:/Archivos de Aplicaciones/CLion/PROJECTS/Lenguajes de Programacion/Proyecto/Practica_1/cmake-build-debug"
 		},
 		{
 			"name" : "ProyectoLenguajesProgramacion_IS_TOP_LEVEL",
@@ -1087,7 +1087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Archivos de Aplicaciones/CLion/PROJECTS/Lenguajes de Programacion/ProyectoLenguajesProgramacion"
+			"value" : "D:/Archivos de Aplicaciones/CLion/PROJECTS/Lenguajes de Programacion/Proyecto/Practica_1"
 		}
 	],
 	"kind" : "cache",

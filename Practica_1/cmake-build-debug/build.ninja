@@ -39,7 +39,7 @@ include CMakeFiles\rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:\Archivos$ de$ Aplicaciones\CLion\PROJECTS\Lenguajes$ de$ Programacion\ProyectoLenguajesProgramacion\cmake-build-debug\
+cmake_ninja_workdir = D$:\Archivos$ de$ Aplicaciones\CLion\PROJECTS\Lenguajes$ de$ Programacion\Proyecto\Practica_1\cmake-build-debug\
 # =============================================================================
 # Object build statements for EXECUTABLE target ProyectoLenguajesProgramacion
 
@@ -49,14 +49,14 @@ cmake_ninja_workdir = D$:\Archivos$ de$ Aplicaciones\CLion\PROJECTS\Lenguajes$ d
 
 build cmake_object_order_depends_target_ProyectoLenguajesProgramacion: phony || CMakeFiles\ProyectoLenguajesProgramacion.dir
 
-build CMakeFiles\ProyectoLenguajesProgramacion.dir\main.cpp.obj: CXX_COMPILER__ProyectoLenguajesProgramacion_Debug D$:\Archivos$ de$ Aplicaciones\CLion\PROJECTS\Lenguajes$ de$ Programacion\ProyectoLenguajesProgramacion\main.cpp || cmake_object_order_depends_target_ProyectoLenguajesProgramacion
+build CMakeFiles\ProyectoLenguajesProgramacion.dir\main.cpp.obj: CXX_COMPILER__ProyectoLenguajesProgramacion_Debug D$:\Archivos$ de$ Aplicaciones\CLion\PROJECTS\Lenguajes$ de$ Programacion\Proyecto\Practica_1\main.cpp || cmake_object_order_depends_target_ProyectoLenguajesProgramacion
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++20
   OBJECT_DIR = CMakeFiles\ProyectoLenguajesProgramacion.dir
   OBJECT_FILE_DIR = CMakeFiles\ProyectoLenguajesProgramacion.dir
   TARGET_COMPILE_PDB = CMakeFiles\ProyectoLenguajesProgramacion.dir\
   TARGET_PDB = ProyectoLenguajesProgramacion.pdb
 
-build CMakeFiles\ProyectoLenguajesProgramacion.dir\Node.cpp.obj: CXX_COMPILER__ProyectoLenguajesProgramacion_Debug D$:\Archivos$ de$ Aplicaciones\CLion\PROJECTS\Lenguajes$ de$ Programacion\ProyectoLenguajesProgramacion\Node.cpp || cmake_object_order_depends_target_ProyectoLenguajesProgramacion
+build CMakeFiles\ProyectoLenguajesProgramacion.dir\Node.cpp.obj: CXX_COMPILER__ProyectoLenguajesProgramacion_Debug D$:\Archivos$ de$ Aplicaciones\CLion\PROJECTS\Lenguajes$ de$ Programacion\Proyecto\Practica_1\Node.cpp || cmake_object_order_depends_target_ProyectoLenguajesProgramacion
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++20
   OBJECT_DIR = CMakeFiles\ProyectoLenguajesProgramacion.dir
   OBJECT_FILE_DIR = CMakeFiles\ProyectoLenguajesProgramacion.dir
@@ -88,7 +88,7 @@ build ProyectoLenguajesProgramacion.exe: CXX_EXECUTABLE_LINKER__ProyectoLenguaje
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\Archivos de Aplicaciones\CLion\PROJECTS\Lenguajes de Programacion\ProyectoLenguajesProgramacion\cmake-build-debug" && "D:\Aplicaciones\CLion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "D:\Archivos de Aplicaciones\CLion\PROJECTS\Lenguajes de Programacion\Proyecto\Practica_1\cmake-build-debug" && "D:\Aplicaciones\CLion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -99,7 +99,7 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\Archivos de Aplicaciones\CLion\PROJECTS\Lenguajes de Programacion\ProyectoLenguajesProgramacion\cmake-build-debug" && "D:\Aplicaciones\CLion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Archivos de Aplicaciones\CLion\PROJECTS\Lenguajes de Programacion\ProyectoLenguajesProgramacion" -B"D:\Archivos de Aplicaciones\CLion\PROJECTS\Lenguajes de Programacion\ProyectoLenguajesProgramacion\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "D:\Archivos de Aplicaciones\CLion\PROJECTS\Lenguajes de Programacion\Proyecto\Practica_1\cmake-build-debug" && "D:\Aplicaciones\CLion\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Archivos de Aplicaciones\CLion\PROJECTS\Lenguajes de Programacion\Proyecto\Practica_1" -B"D:\Archivos de Aplicaciones\CLion\PROJECTS\Lenguajes de Programacion\Proyecto\Practica_1\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -117,7 +117,7 @@ build ProyectoLenguajesProgramacion: phony ProyectoLenguajesProgramacion.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/Archivos de Aplicaciones/CLion/PROJECTS/Lenguajes de Programacion/ProyectoLenguajesProgramacion/cmake-build-debug
+# Folder: D:/Archivos de Aplicaciones/CLion/PROJECTS/Lenguajes de Programacion/Proyecto/Practica_1/cmake-build-debug
 
 build all: phony ProyectoLenguajesProgramacion.exe
 
