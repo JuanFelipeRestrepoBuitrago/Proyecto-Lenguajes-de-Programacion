@@ -7,62 +7,47 @@
 #include "iostream"
 using namespace std;
 
+// Constructor having a next node
 Node::Node(string u, string p, Node *n) {
     this -> username = std::move(u);
     this -> password = std::move(p);
     this -> next = n;
 }
 
+// Constructor without a next node
 Node::Node(std::string u, std::string p) {
     this -> username = std::move(u);
     this -> password = std::move(p);
     this -> next = nullptr;
 }
 
+// Method to get the next node of the current one
 Node *Node::getNext() {
     return this -> next;
 }
 
+// Method to set the next of the current node
 void Node::setNext(Node * n) {
     this -> next = n;
 }
 
+// Method to get the password of the current node
 string Node::getPassword() {
     return this -> password;
 }
 
+// Method to set the password of the current node
 void Node::setPassword(string p) {
     this -> password = std::move(p);
 }
 
+// Method to get the username of the current node
 string Node::getUsername() {
     return this->username;
 }
 
+// Method to set the username of the current node
 void Node::setUsername(string u) {
     this -> username = std::move(u);
 }
 
-bool Node::add_user_at_the_end(string u, string p) {
-    Node * newNode = new Node(std::move(u), std::move(p));
-    Node * current = this -> next;
-
-    while (current -> getNext() != nullptr) {
-        current = current -> getNext();
-    }
-    if (current -> getNext() == nullptr) {
-        current -> setNext(newNode);
-        return true;
-    }else{
-        return false;
-    }
-}
-
-void Node::print_list(Node *current) {
-    if (current != nullptr) {
-        cout << current -> getUsername() << " -> ";
-        this -> print_list(current -> getNext());
-    }else{
-        cout << "NULL" <<endl;
-    }
-}

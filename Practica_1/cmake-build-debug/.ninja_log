@@ -1,9 +1,4 @@
 # ninja log v5
-8	1176	6842688785466929	CMakeFiles/ProyectoLenguajesProgramacion.dir/main.cpp.obj	eaa28334c2aff3ea
-1	763	6842689516315469	CMakeFiles/ProyectoLenguajesProgramacion.dir/Node.cpp.obj	ebfcf1ff8ee05306
-764	1349	6842689522019990	ProyectoLenguajesProgramacion.exe	6d2615905f69e733
-0	965	6842962247769953	CMakeFiles/ProyectoLenguajesProgramacion.dir/main.cpp.obj	c7b5234ab714cec3
-6	970	6842962247861748	CMakeFiles/ProyectoLenguajesProgramacion.dir/Node.cpp.obj	f738cf3490602068
-970	1390	6842962251912955	ProyectoLenguajesProgramacion.exe	6d2615905f69e733
 1	1361	6842962566287076	CMakeFiles/ProyectoLenguajesProgramacion.dir/main.cpp.obj	c7b5234ab714cec3
+6	970	6842962247861748	CMakeFiles/ProyectoLenguajesProgramacion.dir/Node.cpp.obj	f738cf3490602068
 1362	1730	6842962569473444	ProyectoLenguajesProgramacion.exe	6d2615905f69e733

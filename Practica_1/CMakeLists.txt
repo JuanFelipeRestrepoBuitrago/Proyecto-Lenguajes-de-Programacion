@@ -3,4 +3,4 @@ project(ProyectoLenguajesProgramacion)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(ProyectoLenguajesProgramacion main.cpp Node.cpp Node.h)
+add_executable(ProyectoLenguajesProgramacion main.cpp Node.cpp Node.h LinkedList.cpp LinkedList.h)

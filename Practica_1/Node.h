@@ -21,15 +21,6 @@ public:
     void setUsername(string u);
     void setPassword(string p);
     void setNext(Node * n);
-
-    bool add_user_at_the_end(string u, string p);
-//    bool search_user_by_username(string u);
-//    bool search_user_by_password(string p);
-//
-//    bool delete_user_by_username(string u);
-//    bool delete_user_by_password(string p);
-//
-    void print_list(Node * current);
 };
 
 
