@@ -1,11 +1,9 @@
 //
-// Created by Usuario on 12/09/2022.
+// Created by Juan Felipe Restrepo Buitrago on 12/09/2022.
 //
 
 #include "Output.h"
-#include <string>
 #include "iostream"
-#include "chrono"
 #include "thread"
 using namespace std;
 
