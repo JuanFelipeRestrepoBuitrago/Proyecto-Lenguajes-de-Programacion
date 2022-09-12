@@ -1,3 +1,3 @@
-D:/Archivos de Aplicaciones/GitHub/Prácticas Lenguajes de Programación/Practica_1/cmake-build-debug/CMakeFiles/ProyectoLenguajesProgramacion.dir
-D:/Archivos de Aplicaciones/GitHub/Prácticas Lenguajes de Programación/Practica_1/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Archivos de Aplicaciones/GitHub/Prácticas Lenguajes de Programación/Practica_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir
+D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/Practica_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/Practica_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

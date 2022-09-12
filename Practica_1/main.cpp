@@ -4,9 +4,20 @@
 
 #include <iostream>
 #include "LinkedList.h"
+#include "Storage.h"
 using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    LinkedList * list = new LinkedList();
+    Storage storage;
+    storage.loadData(list);
+    list -> printList(list -> getHead());
+
+    list -> addUserAtTheEnd("Juan", "1234");
+    list -> printList(list -> getHead());
+
+    list ->deleteUserByUsername("Mateo");
+    list -> printList(list -> getHead());
+
+    storage.saveData(list);
 }

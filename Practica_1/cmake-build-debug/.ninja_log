@@ -1,4 +1,7 @@
 # ninja log v5
-1	1361	6842962566287076	CMakeFiles/ProyectoLenguajesProgramacion.dir/main.cpp.obj	c7b5234ab714cec3
-6	970	6842962247861748	CMakeFiles/ProyectoLenguajesProgramacion.dir/Node.cpp.obj	f738cf3490602068
 1362	1730	6842962569473444	ProyectoLenguajesProgramacion.exe	6d2615905f69e733
+1	799	6846996661910187	CMakeFiles/Practica_1.dir/Node.cpp.obj	ed910bdf04e17dfd
+0	842	6847006455866378	CMakeFiles/Practica_1.dir/main.cpp.obj	6c02e7f2e28e4d51
+6	791	6846996661840191	CMakeFiles/Practica_1.dir/LinkedList.cpp.obj	1792986002953b56
+865	1141	6847006458468901	Practica_1.exe	9659e22db3912ea1
+4	865	6847006456108088	CMakeFiles/Practica_1.dir/Storage.cpp.obj	ce4768aade8bfa1a

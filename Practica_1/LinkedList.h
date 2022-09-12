@@ -18,6 +18,8 @@ public:
     void setHead(Node * h);
 
     bool addUserAtTheEnd(string u, string p);
+    bool createList(string u, string p);
+
     Node * searchUserByUsername(string u);
     Node * searchUserByPassword(string p);
 

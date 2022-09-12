@@ -22,9 +22,19 @@ void LinkedList::setHead(Node * h) {
     this -> head = h;
 }
 
+// Method to create a new list if it is empty
+bool LinkedList::createList(string u, string p) {
+    if (this -> head == nullptr) {
+        this -> head = new Node(u, p);
+        return true;
+    } else {
+        return false;
+    }
+}
+
 // Method to add a user at the end of the list
 bool LinkedList::addUserAtTheEnd(string u, string p) {
-    Node * newNode = new Node(std::move(u), std::move(p));
+    Node * newNode = new Node(u, p);
     Node * current = this -> head;
 
     if (current == nullptr) {
@@ -57,7 +67,7 @@ Node* LinkedList::searchUserByUsername(string u) {
 }
 
 // Search a password in the list and return the node if it exists, otherwise return nullptr
-Node *LinkedList::searchUserByPassword(std::string p) {
+Node *LinkedList::searchUserByPassword(string p) {
     Node * current = this -> head;
 
     while (current != nullptr){
@@ -67,4 +77,58 @@ Node *LinkedList::searchUserByPassword(std::string p) {
         current = current -> getNext();
     }
     return current;
+}
+
+// Recursive method to print the linked list by username
+void LinkedList::printList(Node *current) {
+    if (current != nullptr) {
+        cout << current->getUsername() << " -> ";
+        printList(current -> getNext());
+    }else{
+        cout << "NULL" << endl;
+    }
+}
+
+// Method to delete a user by password
+bool LinkedList::deleteUserByPassword(string p) {
+    Node * current = this -> head;
+    Node * previous = nullptr;
+
+    while (current != nullptr){
+        if (current -> getPassword() == p){
+            if (previous == nullptr){
+                this -> head = current -> getNext();
+
+            }else{
+                previous -> setNext(current -> getNext());
+
+            }
+            delete current;
+            return true;
+        }
+        previous = current;
+        current = current -> getNext();
+    }
+    return false;
+}
+
+// Method to delete a user by username
+bool LinkedList::deleteUserByUsername(string u) {
+    Node * current = this -> head;
+    Node * previous = nullptr;
+
+    while (current != nullptr){
+        if (current -> getUsername() == u){
+            if (previous == nullptr){
+                this -> head = current -> getNext();
+            }else{
+                previous -> setNext(current -> getNext());
+            }
+            delete current;
+            return true;
+        }
+        previous = current;
+        current = current -> getNext();
+    }
+    return false;
 }

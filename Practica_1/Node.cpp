@@ -9,15 +9,15 @@ using namespace std;
 
 // Constructor having a next node
 Node::Node(string u, string p, Node *n) {
-    this -> username = std::move(u);
-    this -> password = std::move(p);
+    this -> username = u;
+    this -> password = p;
     this -> next = n;
 }
 
 // Constructor without a next node
 Node::Node(std::string u, std::string p) {
-    this -> username = std::move(u);
-    this -> password = std::move(p);
+    this -> username = u;
+    this -> password = p;
     this -> next = nullptr;
 }
 
@@ -38,7 +38,7 @@ string Node::getPassword() {
 
 // Method to set the password of the current node
 void Node::setPassword(string p) {
-    this -> password = std::move(p);
+    this -> password = p;
 }
 
 // Method to get the username of the current node
@@ -48,6 +48,6 @@ string Node::getUsername() {
 
 // Method to set the username of the current node
 void Node::setUsername(string u) {
-    this -> username = std::move(u);
+    this -> username = u;
 }
 
