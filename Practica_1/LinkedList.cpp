@@ -81,7 +81,9 @@ Node *LinkedList::searchUserByPassword(string p) {
 
 // Recursive method to print the linked list by username
 void LinkedList::printList(Node *current) {
-    if (current != nullptr) {
+    if (current -> getNext() == nullptr) {
+        cout << current->getUsername() << endl;
+    }else if (current != nullptr) {
         cout << current->getUsername() << " -> ";
         printList(current -> getNext());
     }else{

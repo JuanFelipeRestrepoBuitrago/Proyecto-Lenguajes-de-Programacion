@@ -5,9 +5,11 @@
 #include <iostream>
 #include "LinkedList.h"
 #include "Storage.h"
+#include "Output.h"
 using namespace std;
 
 int main() {
+    Output::menu();
     LinkedList * list = new LinkedList();
     Storage storage;
     storage.loadData(list);

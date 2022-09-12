@@ -8,7 +8,7 @@
 
 class Output {
 public:
-    void menu();
+    static void menu();
 };
 
 
