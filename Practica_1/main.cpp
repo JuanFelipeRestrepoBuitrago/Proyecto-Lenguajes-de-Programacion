@@ -13,27 +13,17 @@ using namespace std;
 
 int main() {
 
+    // Create a List We are Going to Work With
     LinkedList * list = new LinkedList();
     int option = 0;
 
+    // Execute the Menu, While the User Want to
     while (option != 6){
         Output::menu();
         option = Processing::menuOption(list);
     }
 
+    // Save Changes Made to the List
     Storage::saveData(list);
     return 0;
-
-//    LinkedList * list = new LinkedList();
-//    Storage storage;
-//    storage.loadData(list);
-//    list -> printList(list -> getHead());
-//
-//    list -> addUserAtTheEnd("Juan", "1234");
-//    list -> printList(list -> getHead());
-//
-//    list ->deleteUserByUsername("Mateo");
-//    list -> printList(list -> getHead());
-//
-//    storage.saveData(list);
 }

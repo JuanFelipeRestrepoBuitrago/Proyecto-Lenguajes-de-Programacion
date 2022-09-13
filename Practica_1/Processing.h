@@ -6,6 +6,7 @@
 #define PROYECTOLENGUAJESPROGRAMACION_PROCESSING_H
 #include "LinkedList.h"
 
+// Class to Do the Internal Process of the Program
 class Processing {
 public:
     static int menuOption(LinkedList * list);

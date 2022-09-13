@@ -7,6 +7,7 @@
 #include "string"
 using namespace std;
 
+// Class to Manage the Main Inputs of the Program
 class Input {
 public:
     static int readOption();

@@ -7,6 +7,7 @@
 #include "Exceptions.h"
 using namespace std;
 
+// Method to Read an Integer as Option Given by the User and to Return it
 int Input::readOption() {
     int option;
     cin >> option;
@@ -20,6 +21,8 @@ int Input::readOption() {
     return option;
 }
 
+
+// Method to Read and Return the Password Given by the User
 string Input::readPassword() {
     string password;
     cout << "Digite la Contraseña: ";
@@ -34,6 +37,7 @@ string Input::readPassword() {
     return password;
 }
 
+// Method to Read and Return the Username Given by the User
 string Input::readUsername() {
     string username;
     cout << "Digite el Usuario: ";

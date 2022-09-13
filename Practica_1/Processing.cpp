@@ -10,6 +10,7 @@
 
 using namespace std;
 
+// This Method Executes the Respective Option Selected
 int Processing::menuOption(LinkedList * list) {
     int option = 0;
     try {
@@ -51,21 +52,26 @@ int Processing::menuOption(LinkedList * list) {
     }
 }
 
+// Method to Load the Data From a File to the List Given, First Option
 void Processing::option1(LinkedList * list) {
     if (list -> getHead() != nullptr) {
         throw ExistingListException();
     }else{
         Storage::loadData(list);
+        cout << "Datos Cargados Exitosamente" << endl;
     }
 }
 
+// Method to Add a New User to the Given List
 void Processing::option2(LinkedList * list) {
     string username = Input::readUsername();
     string password = Input::readPassword();
 
     list -> addUserAtTheEnd(username, password);
+    cout << "Usuario Agregado Exitosamente" << endl;
 }
 
+// This Method Confirms Whether a User Exists or Not
 void Processing::option3(LinkedList *list) {
     if (list -> getHead() == nullptr){
         throw EmptyListException();
@@ -89,18 +95,38 @@ void Processing::option3(LinkedList *list) {
     }
 }
 
+// Method to Delete an Existing User From the Given List
 void Processing::option4(LinkedList *list) {
     if (list -> getHead() == nullptr){
         throw EmptyListException();
     }else{
-        if (list -> deleteUserByUsername(Input::readUsername())){
-            cout << "Usuario Eliminado Exitosamente" << endl;
-        }else{
-            cout << "No se Encontró ese Usuario" << endl;
+        Node * user = list ->searchUserByUsername(Input::readUsername());
+
+        while (true){
+            if (user == nullptr){
+                cout << "No se Encontró ese Usuario" << endl;
+                break;
+            }else{
+                string password = Input::readPassword();
+                if (user -> getPassword() == password){
+                    if (list -> deleteUserByUsername(user -> getUsername())){
+                      cout << "Usuario Eliminado Exitosamente" << endl;
+                    }
+                    break;
+                }else{
+                    cout << "Contraseña Incorrecta, Inténtelo de Nuevo" << endl;
+                }
+            }
         }
+//        if (list -> deleteUserByUsername(Input::readUsername())){
+//            cout << "Usuario Eliminado Exitosamente" << endl;
+//        }else{
+//            cout << "No se Encontró ese Usuario" << endl;
+//        }
     }
 }
 
+// This Method Prints the Given List
 void Processing::option5(LinkedList *list) {
     list ->printList(list -> getHead());
 }
