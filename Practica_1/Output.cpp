@@ -7,6 +7,7 @@
 #include "thread"
 using namespace std;
 
+// Method to Print the Menu Options
 void Output::menu() {
     this_thread::sleep_for(chrono::milliseconds(2500));
     cout << "****** Menu ******" << endl;

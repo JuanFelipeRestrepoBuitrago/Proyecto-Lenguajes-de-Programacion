@@ -5,7 +5,7 @@
 #ifndef PROYECTOLENGUAJESPROGRAMACION_OUTPUT_H
 #define PROYECTOLENGUAJESPROGRAMACION_OUTPUT_H
 
-
+// Class with the Main Outputs of the Program
 class Output {
 public:
     static void menu();

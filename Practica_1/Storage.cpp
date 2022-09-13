@@ -34,6 +34,8 @@ void Storage::loadData(LinkedList * list) {
             p = false;
         }
     }
+
+    file.close();
 }
 
 // Method to save the data of a linked list in a file
@@ -46,4 +48,6 @@ void Storage::saveData(LinkedList *list) {
         file << current -> getPassword() << endl;
         current = current -> getNext();
     }
+
+    file.close();
 }

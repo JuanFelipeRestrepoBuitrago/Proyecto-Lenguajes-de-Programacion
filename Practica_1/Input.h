@@ -1,5 +1,5 @@
 //
-// Created by Usuario on 12/09/2022.
+// Created by Juan Felipe Restrepo Buitrago on 12/09/2022.
 //
 
 #ifndef PROYECTOLENGUAJESPROGRAMACION_INPUT_H

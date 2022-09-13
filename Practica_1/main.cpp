@@ -2,22 +2,28 @@
 // Created by Juan Felipe Restrepo Buitrago on 7/09/2022.
 //
 
-#include <iostream>
 #include "LinkedList.h"
 #include "Storage.h"
 #include "Output.h"
 #include "Exceptions.h"
+#include "Processing.h"
 using namespace std;
-#include "Input.h"
+
 
 
 int main() {
-    Output::menu();
-    try {
-        int option = Input::readOption();
-    }catch (InvalidOptionException &e){
-        cout << e.what() << endl;
+
+    LinkedList * list = new LinkedList();
+    int option = 0;
+
+    while (option != 6){
+        Output::menu();
+        option = Processing::menuOption(list);
     }
+
+    Storage::saveData(list);
+    return 0;
+
 //    LinkedList * list = new LinkedList();
 //    Storage storage;
 //    storage.loadData(list);
