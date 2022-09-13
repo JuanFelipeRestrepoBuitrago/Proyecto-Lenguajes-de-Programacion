@@ -80,7 +80,7 @@ void Processing::option3(LinkedList *list) {
 
         while (true){
             if (user == nullptr){
-                cout << "No se Encontró ese Usuario" << endl;
+                cout << "No se Encontro ese Usuario" << endl;
                 break;
             }else{
                 string password = Input::readPassword();
@@ -88,7 +88,7 @@ void Processing::option3(LinkedList *list) {
                     cout << "Bienvenido," << user ->getUsername() << endl;
                     break;
                 }else{
-                    cout << "Contraseña Incorrecta, Inténtelo de Nuevo" << endl;
+                    cout << "Contraseña Incorrecta, Intentelo de Nuevo" << endl;
                 }
             }
         }
@@ -104,7 +104,7 @@ void Processing::option4(LinkedList *list) {
 
         while (true){
             if (user == nullptr){
-                cout << "No se Encontró ese Usuario" << endl;
+                cout << "No se Encontro ese Usuario" << endl;
                 break;
             }else{
                 string password = Input::readPassword();
@@ -114,7 +114,7 @@ void Processing::option4(LinkedList *list) {
                     }
                     break;
                 }else{
-                    cout << "Contraseña Incorrecta, Inténtelo de Nuevo" << endl;
+                    cout << "Contraseña Incorrecta, Intentelo de Nuevo" << endl;
                 }
             }
         }
