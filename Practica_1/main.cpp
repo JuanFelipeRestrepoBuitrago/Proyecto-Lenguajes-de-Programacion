@@ -2,11 +2,11 @@
 // Created by Juan Felipe Restrepo Buitrago on 7/09/2022.
 //
 
-#include "LinkedList.h"
-#include "Storage.h"
-#include "Output.h"
-#include "Exceptions.h"
-#include "Processing.h"
+#include "LinkedList/LinkedList.h"
+#include "FileHandling/Storage.h"
+#include "Outputs/Output.h"
+#include "Exceptions/Exceptions.h"
+#include "InternalProcessing/Processing.h"
 using namespace std;
 
 

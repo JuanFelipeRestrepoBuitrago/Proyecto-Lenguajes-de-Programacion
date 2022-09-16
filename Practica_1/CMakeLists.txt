@@ -3,4 +3,4 @@ project(ProyectoLenguajesProgramacion)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Practica_1 main.cpp Node.cpp Node.h LinkedList.cpp LinkedList.h Storage.cpp Storage.h Output.cpp Output.h Input.cpp Input.h Exceptions.cpp Exceptions.h Processing.cpp Processing.h)
+add_executable(Practica_1 main.cpp LinkedList/Node.cpp LinkedList/Node.h LinkedList/LinkedList.cpp LinkedList/LinkedList.h FileHandling/Storage.cpp FileHandling/Storage.h Outputs/Output.cpp Outputs/Output.h Inputs/Input.cpp Inputs/Input.h Exceptions/Exceptions.cpp Exceptions/Exceptions.h InternalProcessing/Processing.cpp InternalProcessing/Processing.h)

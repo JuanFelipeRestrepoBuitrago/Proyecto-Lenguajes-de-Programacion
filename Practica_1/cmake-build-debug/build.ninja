@@ -56,52 +56,52 @@ build CMakeFiles\Practica_1.dir\main.cpp.obj: CXX_COMPILER__Practica_1_Debug D$:
   TARGET_COMPILE_PDB = CMakeFiles\Practica_1.dir\
   TARGET_PDB = Practica_1.pdb
 
-build CMakeFiles\Practica_1.dir\Node.cpp.obj: CXX_COMPILER__Practica_1_Debug D$:\Archivos$ de$ Aplicaciones\GitHub\Practicas$ Lenguajes$ de$ Programacion\Practica_1\Node.cpp || cmake_object_order_depends_target_Practica_1
+build CMakeFiles\Practica_1.dir\LinkedList\Node.cpp.obj: CXX_COMPILER__Practica_1_Debug D$:\Archivos$ de$ Aplicaciones\GitHub\Practicas$ Lenguajes$ de$ Programacion\Practica_1\LinkedList\Node.cpp || cmake_object_order_depends_target_Practica_1
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++20
   OBJECT_DIR = CMakeFiles\Practica_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practica_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Practica_1.dir\LinkedList
   TARGET_COMPILE_PDB = CMakeFiles\Practica_1.dir\
   TARGET_PDB = Practica_1.pdb
 
-build CMakeFiles\Practica_1.dir\LinkedList.cpp.obj: CXX_COMPILER__Practica_1_Debug D$:\Archivos$ de$ Aplicaciones\GitHub\Practicas$ Lenguajes$ de$ Programacion\Practica_1\LinkedList.cpp || cmake_object_order_depends_target_Practica_1
+build CMakeFiles\Practica_1.dir\LinkedList\LinkedList.cpp.obj: CXX_COMPILER__Practica_1_Debug D$:\Archivos$ de$ Aplicaciones\GitHub\Practicas$ Lenguajes$ de$ Programacion\Practica_1\LinkedList\LinkedList.cpp || cmake_object_order_depends_target_Practica_1
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++20
   OBJECT_DIR = CMakeFiles\Practica_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practica_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Practica_1.dir\LinkedList
   TARGET_COMPILE_PDB = CMakeFiles\Practica_1.dir\
   TARGET_PDB = Practica_1.pdb
 
-build CMakeFiles\Practica_1.dir\Storage.cpp.obj: CXX_COMPILER__Practica_1_Debug D$:\Archivos$ de$ Aplicaciones\GitHub\Practicas$ Lenguajes$ de$ Programacion\Practica_1\Storage.cpp || cmake_object_order_depends_target_Practica_1
+build CMakeFiles\Practica_1.dir\FileHandling\Storage.cpp.obj: CXX_COMPILER__Practica_1_Debug D$:\Archivos$ de$ Aplicaciones\GitHub\Practicas$ Lenguajes$ de$ Programacion\Practica_1\FileHandling\Storage.cpp || cmake_object_order_depends_target_Practica_1
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++20
   OBJECT_DIR = CMakeFiles\Practica_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practica_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Practica_1.dir\FileHandling
   TARGET_COMPILE_PDB = CMakeFiles\Practica_1.dir\
   TARGET_PDB = Practica_1.pdb
 
-build CMakeFiles\Practica_1.dir\Output.cpp.obj: CXX_COMPILER__Practica_1_Debug D$:\Archivos$ de$ Aplicaciones\GitHub\Practicas$ Lenguajes$ de$ Programacion\Practica_1\Output.cpp || cmake_object_order_depends_target_Practica_1
+build CMakeFiles\Practica_1.dir\Outputs\Output.cpp.obj: CXX_COMPILER__Practica_1_Debug D$:\Archivos$ de$ Aplicaciones\GitHub\Practicas$ Lenguajes$ de$ Programacion\Practica_1\Outputs\Output.cpp || cmake_object_order_depends_target_Practica_1
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++20
   OBJECT_DIR = CMakeFiles\Practica_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practica_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Practica_1.dir\Outputs
   TARGET_COMPILE_PDB = CMakeFiles\Practica_1.dir\
   TARGET_PDB = Practica_1.pdb
 
-build CMakeFiles\Practica_1.dir\Input.cpp.obj: CXX_COMPILER__Practica_1_Debug D$:\Archivos$ de$ Aplicaciones\GitHub\Practicas$ Lenguajes$ de$ Programacion\Practica_1\Input.cpp || cmake_object_order_depends_target_Practica_1
+build CMakeFiles\Practica_1.dir\Inputs\Input.cpp.obj: CXX_COMPILER__Practica_1_Debug D$:\Archivos$ de$ Aplicaciones\GitHub\Practicas$ Lenguajes$ de$ Programacion\Practica_1\Inputs\Input.cpp || cmake_object_order_depends_target_Practica_1
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++20
   OBJECT_DIR = CMakeFiles\Practica_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practica_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Practica_1.dir\Inputs
   TARGET_COMPILE_PDB = CMakeFiles\Practica_1.dir\
   TARGET_PDB = Practica_1.pdb
 
-build CMakeFiles\Practica_1.dir\Exceptions.cpp.obj: CXX_COMPILER__Practica_1_Debug D$:\Archivos$ de$ Aplicaciones\GitHub\Practicas$ Lenguajes$ de$ Programacion\Practica_1\Exceptions.cpp || cmake_object_order_depends_target_Practica_1
+build CMakeFiles\Practica_1.dir\Exceptions\Exceptions.cpp.obj: CXX_COMPILER__Practica_1_Debug D$:\Archivos$ de$ Aplicaciones\GitHub\Practicas$ Lenguajes$ de$ Programacion\Practica_1\Exceptions\Exceptions.cpp || cmake_object_order_depends_target_Practica_1
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++20
   OBJECT_DIR = CMakeFiles\Practica_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practica_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Practica_1.dir\Exceptions
   TARGET_COMPILE_PDB = CMakeFiles\Practica_1.dir\
   TARGET_PDB = Practica_1.pdb
 
-build CMakeFiles\Practica_1.dir\Processing.cpp.obj: CXX_COMPILER__Practica_1_Debug D$:\Archivos$ de$ Aplicaciones\GitHub\Practicas$ Lenguajes$ de$ Programacion\Practica_1\Processing.cpp || cmake_object_order_depends_target_Practica_1
+build CMakeFiles\Practica_1.dir\InternalProcessing\Processing.cpp.obj: CXX_COMPILER__Practica_1_Debug D$:\Archivos$ de$ Aplicaciones\GitHub\Practicas$ Lenguajes$ de$ Programacion\Practica_1\InternalProcessing\Processing.cpp || cmake_object_order_depends_target_Practica_1
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++20
   OBJECT_DIR = CMakeFiles\Practica_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practica_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Practica_1.dir\InternalProcessing
   TARGET_COMPILE_PDB = CMakeFiles\Practica_1.dir\
   TARGET_PDB = Practica_1.pdb
 
@@ -113,7 +113,7 @@ build CMakeFiles\Practica_1.dir\Processing.cpp.obj: CXX_COMPILER__Practica_1_Deb
 #############################################
 # Link the executable Practica_1.exe
 
-build Practica_1.exe: CXX_EXECUTABLE_LINKER__Practica_1_Debug CMakeFiles\Practica_1.dir\main.cpp.obj CMakeFiles\Practica_1.dir\Node.cpp.obj CMakeFiles\Practica_1.dir\LinkedList.cpp.obj CMakeFiles\Practica_1.dir\Storage.cpp.obj CMakeFiles\Practica_1.dir\Output.cpp.obj CMakeFiles\Practica_1.dir\Input.cpp.obj CMakeFiles\Practica_1.dir\Exceptions.cpp.obj CMakeFiles\Practica_1.dir\Processing.cpp.obj
+build Practica_1.exe: CXX_EXECUTABLE_LINKER__Practica_1_Debug CMakeFiles\Practica_1.dir\main.cpp.obj CMakeFiles\Practica_1.dir\LinkedList\Node.cpp.obj CMakeFiles\Practica_1.dir\LinkedList\LinkedList.cpp.obj CMakeFiles\Practica_1.dir\FileHandling\Storage.cpp.obj CMakeFiles\Practica_1.dir\Outputs\Output.cpp.obj CMakeFiles\Practica_1.dir\Inputs\Input.cpp.obj CMakeFiles\Practica_1.dir\Exceptions\Exceptions.cpp.obj CMakeFiles\Practica_1.dir\InternalProcessing\Processing.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:X86 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
