@@ -58,7 +58,6 @@ void Processing::option1(LinkedList * list) {
         throw ExistingListException();
     }else{
         Storage::loadData(list);
-        cout << "Datos Cargados Exitosamente" << endl;
     }
 }
 
