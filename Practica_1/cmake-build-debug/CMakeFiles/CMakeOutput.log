@@ -1,4 +1,4 @@
-The system is: Windows - 10.0.22000 - AMD64
+The system is: Windows - 10.0.22621 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe 
 Build flags: 
@@ -50,16 +50,16 @@ The CXX compiler identification is MSVC, found in "D:/Archivos de Aplicaciones/G
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/Practica_1/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Aplicaciones/CLion/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_fed04 && [1/2] Building C object CMakeFiles\cmTC_fed04.dir\CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_fed04.exe
+Run Build Command(s):D:/Aplicaciones/JetBrains/ToolBox/apps/CLion/ch-0/222.4345.21/bin/ninja/win/ninja.exe cmTC_87214 && [1/2] Building C object CMakeFiles\cmTC_87214.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_87214.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/Practica_1/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Aplicaciones/CLion/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_be6f5 && [1/2] Building CXX object CMakeFiles\cmTC_be6f5.dir\CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_be6f5.exe
+Run Build Command(s):D:/Aplicaciones/JetBrains/ToolBox/apps/CLion/ch-0/222.4345.21/bin/ninja/win/ninja.exe cmTC_3a8f1 && [1/2] Building CXX object CMakeFiles\cmTC_3a8f1.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_3a8f1.exe
 
 
 

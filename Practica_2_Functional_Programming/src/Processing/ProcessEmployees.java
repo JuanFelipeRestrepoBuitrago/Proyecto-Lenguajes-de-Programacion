@@ -88,7 +88,8 @@ public class ProcessEmployees {
 
     // This method prints the name, lastname and salary of the employee who has the max salary of all the employees
     public static void maxSalary(List<Employee> employees){
-        Employee max = employees.stream().reduce((employee, employee2) -> employee.getSalary() > employee2.getSalary() ? employee : employee2).get();
+        // Employee max = employees.stream().reduce((employee, employee2) -> employee.getSalary() > employee2.getSalary() ? employee : employee2).get();
+        Employee max = employees.stream().max((employee, employee2) -> Double.compare(employee.getSalary(), employee2.getSalary())).get();
         System.out.println("The employee who has the highest salary of everyone is: " + max.getName() + " " + max.getLastname() + " with " + max.getSalary());
 
         System.out.println();
@@ -96,7 +97,8 @@ public class ProcessEmployees {
 
     // This method prints the name, lastname and salary of the employee who has the min salary of all the employees
     public static void minSalary(List<Employee> employees){
-        Employee min = employees.stream().reduce((employee, employee2) -> employee.getSalary() < employee2.getSalary() ? employee : employee2).get();
+        //Employee min = employees.stream().reduce((employee, employee2) -> employee.getSalary() < employee2.getSalary() ? employee : employee2).get();
+        Employee min = employees.stream().min((employee, employee2) -> Double.compare(employee.getSalary(), employee2.getSalary())).get();
         System.out.println("The employee who has the lowest salary of everyone is: " + min.getName() + " " + min.getLastname() + " with " + min.getSalary());
 
         System.out.println();
