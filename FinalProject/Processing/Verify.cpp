@@ -3,6 +3,7 @@
 //
 
 #include "Verify.h"
+#include "../Exceptions/Exception.h"
 
 using namespace std;
 
@@ -44,7 +45,11 @@ bool Verify::verifyRow(string row) {
             length++;
         }
     }
-    return true;
+    if (length == 8){
+        return true;
+    } else {
+        throw InvalidLengthException(row);
+    }
 }
 
 string Verify::getRow(string chessBoard) {

@@ -1,3 +1,7 @@
+//
+// Created by Juan Felipe Restrepo Buitrago on 04/11/2022.
+//
+
 #include "notifydialog.h"
 #include "ui_notifydialog.h"
 

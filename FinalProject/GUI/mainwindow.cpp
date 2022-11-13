@@ -1,3 +1,7 @@
+//
+// Created by Juan Felipe Restrepo Buitrago on 04/11/2022.
+//
+
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "ui_mainwindow.h"
@@ -50,6 +54,9 @@ void MainWindow::on_verifyButton_clicked()
 
         }
     }catch (NoTextException &e){
+        e.what();
+    }catch (InvalidLengthException &e){
+        ui->label->setText("");
         e.what();
     }
 }

@@ -1,3 +1,7 @@
+//
+// Created by Juan Felipe Restrepo Buitrago on 04/11/2022.
+//
+
 #include "board.h"
 #include "ui_board.h"
 #include "mainwindow.h"

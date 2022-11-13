@@ -1,3 +1,7 @@
+//
+// Created by Juan Felipe Restrepo Buitrago on 04/11/2022.
+//
+
 #ifndef NOTIFYDIALOG_H
 #define NOTIFYDIALOG_H
 
