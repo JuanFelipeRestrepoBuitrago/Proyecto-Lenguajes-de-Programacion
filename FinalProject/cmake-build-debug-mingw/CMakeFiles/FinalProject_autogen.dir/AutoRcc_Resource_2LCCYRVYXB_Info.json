@@ -7,7 +7,20 @@
 	"INCLUDE_DIR" : "D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/include",
 	"INPUTS" : 
 	[
-		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/InformationIcon.png"
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/InformationIcon.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/White Queen.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/White Rook.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/White Pawn.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/Black Pawn.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/Black Knight.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/Black Rook.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/Chess Icon.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/Black Queen.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/Black King.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/Black Bishop.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/White King.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/White Bishop.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/White Knight.png"
 	],
 	"LOCK_FILE" : "D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/AutoRcc_Resource_2LCCYRVYXB_Lock.lock",
 	"MULTI_CONFIG" : false,

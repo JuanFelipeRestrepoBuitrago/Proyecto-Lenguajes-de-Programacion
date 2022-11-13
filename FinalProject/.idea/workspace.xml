@@ -17,157 +17,56 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72ab342e-efca-447d-a643-899264f4c8af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/FinalProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exceptions/Exception.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exceptions/Exception.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/Images/Chess Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/Images/InformationIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/Resource.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/mainwindow.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/mainwindow.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/mainwindow.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/notifydialog.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/notifydialog.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/notifydialog.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Processing/Verify.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Processing/Verify.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/cache-v2-76fd48feabb0092c866a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/cmakeFiles-v1-195cb5f56bbf0868ce05.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/codemodel-v2-2dbf99db795a2188f736.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/index-2022-11-10T01-38-18-0570.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-FinalProject-Debug-637bae681b5c7df879c3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-FinalProject_autogen-Debug-b9ddcfc319eb960cbc6e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-FinalProject_autogen_timestamp_deps-Debug-8f623f8413eb21539ed9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/toolchains-v1-8a13f09406ec4946fd28.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.qt/QtDeploySupport.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.24.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.24.2/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.24.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.24.2/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.24.2/CompilerIdCXX/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/Exceptions/Exception.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/FinalProject_autogen/mocs_compilation.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/GUI/mainwindow.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/GUI/notifydialog.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/Processing/Verify.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/Verification/Verify.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/main.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/AutoRcc_Resource_2LCCYRVYXB_Info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/AutoRcc_Resource_2LCCYRVYXB_Lock.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/AutoRcc_Resource_2LCCYRVYXB_Used.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/AutogenInfo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/AutogenUsed.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/ParseCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clean_additional.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/d/2cac91c4fbd5a4b4216f8a09b076f6b6811806bff2f7d13c059e697c19d93402.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/2LCCYRVYXB/moc_mainwindow.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/2LCCYRVYXB/moc_mainwindow.cpp.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/2LCCYRVYXB/moc_notifydialog.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/2LCCYRVYXB/moc_notifydialog.cpp.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/include/ui_mainwindow.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/include/ui_notifydialog.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/moc_predefs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/timestamp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Qt6Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Qt6Gui.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Qt6Widgets.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/plugins/platforms/qwindows.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GUI/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GUI/.idea/QTChess.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GUI/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GUI/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GUI/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GUI/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GUI/GUI/mainwindow.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GUI/GUI/mainwindow.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GUI/GUI/mainwindow.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GUI/Verification/Verify.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GUI/Verification/Verify.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GUI/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-93de50475c8d2e705b26.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-e2ac151e555d575a7091.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/.cmake/api/v1/reply/index-2022-11-09T01-01-00-0483.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practica_2_Functional_Programming/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practica_2_Functional_Programming/out/production/Practica_2_Functional_Programming/FileHandling/Other.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practica_2_Functional_Programming/out/production/Practica_2_Functional_Programming/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-42b696aff8b836d72c86.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-2a56cf79294e90411239.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/.cmake/api/v1/reply/index-2022-09-17T21-21-41-0705.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/Exceptions.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/Exceptions/Exceptions.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/Exceptions/Exceptions.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/FileHandling/Storage.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/FileHandling/Storage.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/Input.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/Inputs/Input.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/Inputs/Input.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/InternalProcessing/Processing.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/InternalProcessing/Processing.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/LinkedList.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/LinkedList/LinkedList.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/LinkedList/LinkedList.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/LinkedList/Node.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/LinkedList/Node.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/Node.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/Output.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/Outputs/Output.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/Outputs/Output.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/Processing.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/Storage.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/Practica_1.dir/vc140.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/ShowIncludes/main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/ShowIncludes/main.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/Practica_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/Practica_1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/Practica_1.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/Practica_1.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/Practica_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/Practica_1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_1/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_2_Functional_Programming/out/production/Practica_2_Functional_Programming/FileHandling/Read.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_2_Functional_Programming/out/production/Practica_2_Functional_Programming/FileHandling/Read.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_2_Functional_Programming/out/production/Practica_2_Functional_Programming/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_2_Functional_Programming/out/production/Practica_2_Functional_Programming/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_2_Functional_Programming/out/production/Practica_2_Functional_Programming/Processing/ProcessEmployees.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_2_Functional_Programming/out/production/Practica_2_Functional_Programming/Processing/ProcessEmployees.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_2_Functional_Programming/src/FileHandling/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_2_Functional_Programming/src/FileHandling/Read.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_2_Functional_Programming/src/Processing/ProcessEmployees.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_2_Functional_Programming/src/Processing/ProcessEmployees.java" afterDir="false" />
+    <list default="true" id="72ab342e-efca-447d-a643-899264f4c8af" name="Changes" comment="Big Part of GUI">
+      <change afterPath="$PROJECT_DIR$/GUI/Images/Black Bishop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/Images/Black King.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/Images/Black Knight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/Images/Black Pawn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/Images/Black Queen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/Images/Black Rook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/Images/White Bishop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/Images/White King.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/Images/White Knight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/Images/White Pawn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/Images/White Queen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/Images/White Rook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/board.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/board.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/board.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/Resource.qrc" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/Resource.qrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/mainwindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/mainwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/mainwindow.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/mainwindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/mainwindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/notifydialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/notifydialog.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Processing/Verify.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Processing/Verify.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Processing/Verify.h" beforeDir="false" afterPath="$PROJECT_DIR$/Processing/Verify.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/codemodel-v2-2dbf99db795a2188f736.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/index-2022-11-10T01-38-18-0570.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-FinalProject-Debug-637bae681b5c7df879c3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/FinalProject_autogen/mocs_compilation.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/FinalProject_autogen/mocs_compilation.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/GUI/mainwindow.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/GUI/mainwindow.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/GUI/notifydialog.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/GUI/notifydialog.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/Processing/Verify.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/Processing/Verify.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/AutoRcc_Resource_2LCCYRVYXB_Info.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/AutoRcc_Resource_2LCCYRVYXB_Info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/AutoRcc_Resource_2LCCYRVYXB_Used.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/AutoRcc_Resource_2LCCYRVYXB_Used.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/ParseCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/d/2cac91c4fbd5a4b4216f8a09b076f6b6811806bff2f7d13c059e697c19d93402.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/d/2cac91c4fbd5a4b4216f8a09b076f6b6811806bff2f7d13c059e697c19d93402.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/include/ui_mainwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/include/ui_mainwindow.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/include/ui_notifydialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/include/ui_notifydialog.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,8 +137,25 @@
       <workItem from="1668113380334" duration="70000" />
       <workItem from="1668182541381" duration="2137000" />
       <workItem from="1668209314627" duration="1652000" />
-      <workItem from="1668264624427" duration="649000" />
+      <workItem from="1668264624427" duration="10967000" />
+      <workItem from="1668362378651" duration="1752000" />
+      <workItem from="1668364171768" duration="902000" />
     </task>
+    <task id="LOCAL-00001" summary="Big Part of GUI">
+      <created>1668266146931</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668266146931</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Big Part of GUI">
+      <created>1668266414880</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668266414880</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,5 +171,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Big Part of GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Big Part of GUI" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -10,13 +10,17 @@
 #define UI_MAINWINDOW_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -25,9 +29,20 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QLineEdit *data;
-    QPushButton *verifyButton;
+    QVBoxLayout *verticalLayout;
+    QSpacerItem *verticalSpacer_2;
+    QHBoxLayout *horizontalLayout_4;
     QLabel *mainText;
+    QHBoxLayout *horizontalLayout_3;
+    QSpacerItem *horizontalSpacer_3;
+    QLineEdit *data;
+    QSpacerItem *horizontalSpacer_4;
+    QHBoxLayout *horizontalLayout_2;
+    QSpacerItem *horizontalSpacer;
+    QPushButton *verifyButton;
+    QSpacerItem *horizontalSpacer_2;
+    QSpacerItem *verticalSpacer;
+    QLabel *label;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -35,7 +50,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(707, 349);
+        MainWindow->resize(709, 346);
         QPalette palette;
         QBrush brush(QColor(0, 0, 0, 255));
         brush.setStyle(Qt::SolidPattern);
@@ -111,19 +126,83 @@ public:
         palette.setBrush(QPalette::Disabled, QPalette::ToolTipBase, brush8);
         palette.setBrush(QPalette::Disabled, QPalette::ToolTipText, brush);
         MainWindow->setPalette(palette);
+        QIcon icon;
+        icon.addFile(QString::fromUtf8(":/Resources/Images/Chess Icon.png"), QSize(), QIcon::Normal, QIcon::Off);
+        MainWindow->setWindowIcon(icon);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
-        data = new QLineEdit(centralwidget);
-        data->setObjectName("data");
-        data->setGeometry(QRect(110, 160, 501, 51));
+        verticalLayout = new QVBoxLayout(centralwidget);
+        verticalLayout->setObjectName("verticalLayout");
+        verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        verticalLayout->addItem(verticalSpacer_2);
+
+        horizontalLayout_4 = new QHBoxLayout();
+        horizontalLayout_4->setObjectName("horizontalLayout_4");
+        mainText = new QLabel(centralwidget);
+        mainText->setObjectName("mainText");
         QFont font;
         font.setFamilies({QString::fromUtf8("Times New Roman")});
-        font.setPointSize(12);
-        data->setFont(font);
+        font.setPointSize(25);
+        mainText->setFont(font);
+        mainText->setContextMenuPolicy(Qt::NoContextMenu);
+        mainText->setAcceptDrops(true);
+        mainText->setTextFormat(Qt::RichText);
+        mainText->setScaledContents(false);
+        mainText->setAlignment(Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft);
+        mainText->setWordWrap(false);
+        mainText->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse);
+
+        horizontalLayout_4->addWidget(mainText);
+
+
+        verticalLayout->addLayout(horizontalLayout_4);
+
+        horizontalLayout_3 = new QHBoxLayout();
+        horizontalLayout_3->setObjectName("horizontalLayout_3");
+        horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_3->addItem(horizontalSpacer_3);
+
+        data = new QLineEdit(centralwidget);
+        data->setObjectName("data");
+        QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(data->sizePolicy().hasHeightForWidth());
+        data->setSizePolicy(sizePolicy);
+        QFont font1;
+        font1.setFamilies({QString::fromUtf8("Times New Roman")});
+        font1.setPointSize(12);
+        data->setFont(font1);
+
+        horizontalLayout_3->addWidget(data);
+
+        horizontalSpacer_4 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_3->addItem(horizontalSpacer_4);
+
+        horizontalLayout_3->setStretch(0, 1);
+        horizontalLayout_3->setStretch(1, 4);
+        horizontalLayout_3->setStretch(2, 1);
+
+        verticalLayout->addLayout(horizontalLayout_3);
+
+        horizontalLayout_2 = new QHBoxLayout();
+        horizontalLayout_2->setObjectName("horizontalLayout_2");
+        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_2->addItem(horizontalSpacer);
+
         verifyButton = new QPushButton(centralwidget);
         verifyButton->setObjectName("verifyButton");
         verifyButton->setEnabled(true);
-        verifyButton->setGeometry(QRect(280, 240, 141, 41));
+        QSizePolicy sizePolicy1(QSizePolicy::Preferred, QSizePolicy::Preferred);
+        sizePolicy1.setHorizontalStretch(0);
+        sizePolicy1.setVerticalStretch(0);
+        sizePolicy1.setHeightForWidth(verifyButton->sizePolicy().hasHeightForWidth());
+        verifyButton->setSizePolicy(sizePolicy1);
+        verifyButton->setMaximumSize(QSize(16777215, 16777215));
         QPalette palette1;
         QBrush brush14(QColor(136, 47, 47, 255));
         brush14.setStyle(Qt::SolidPattern);
@@ -131,23 +210,43 @@ public:
         palette1.setBrush(QPalette::Inactive, QPalette::Button, brush9);
         palette1.setBrush(QPalette::Disabled, QPalette::Button, brush14);
         verifyButton->setPalette(palette1);
-        QFont font1;
-        font1.setFamilies({QString::fromUtf8("Times New Roman")});
-        font1.setPointSize(20);
-        font1.setBold(true);
-        verifyButton->setFont(font1);
-        mainText = new QLabel(centralwidget);
-        mainText->setObjectName("mainText");
-        mainText->setGeometry(QRect(30, 70, 411, 61));
         QFont font2;
         font2.setFamilies({QString::fromUtf8("Times New Roman")});
-        font2.setPointSize(24);
-        mainText->setFont(font2);
-        mainText->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+        font2.setPointSize(20);
+        font2.setBold(true);
+        verifyButton->setFont(font2);
+
+        horizontalLayout_2->addWidget(verifyButton);
+
+        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_2->addItem(horizontalSpacer_2);
+
+        horizontalLayout_2->setStretch(0, 2);
+        horizontalLayout_2->setStretch(1, 1);
+        horizontalLayout_2->setStretch(2, 2);
+
+        verticalLayout->addLayout(horizontalLayout_2);
+
+        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        verticalLayout->addItem(verticalSpacer);
+
+        label = new QLabel(centralwidget);
+        label->setObjectName("label");
+        label->setFont(font1);
+
+        verticalLayout->addWidget(label);
+
+        verticalLayout->setStretch(0, 1);
+        verticalLayout->setStretch(1, 3);
+        verticalLayout->setStretch(2, 1);
+        verticalLayout->setStretch(3, 1);
+        verticalLayout->setStretch(4, 1);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 707, 21));
+        menubar->setGeometry(QRect(0, 0, 709, 21));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
@@ -161,9 +260,10 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Chess Parser", nullptr));
+        mainText->setText(QCoreApplication::translate("MainWindow", "Insert the FEN expression:", nullptr));
         data->setText(QString());
         verifyButton->setText(QCoreApplication::translate("MainWindow", "Verify", nullptr));
-        mainText->setText(QCoreApplication::translate("MainWindow", "Insert the FEN expression:", nullptr));
+        label->setText(QString());
     } // retranslateUi
 
 };

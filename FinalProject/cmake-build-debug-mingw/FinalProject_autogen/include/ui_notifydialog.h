@@ -10,12 +10,12 @@
 #define UI_NOTIFYDIALOG_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QAbstractButton>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QDialogButtonBox>
 #include <QtWidgets/QLabel>
-#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPlainTextEdit>
 
 QT_BEGIN_NAMESPACE
@@ -25,7 +25,6 @@ class Ui_NotifyDialog
 public:
     QDialogButtonBox *buttonBox;
     QLabel *InformationIcon;
-    QLineEdit *lineEdit;
     QPlainTextEdit *plainTextEdit;
 
     void setupUi(QDialog *NotifyDialog)
@@ -44,6 +43,14 @@ public:
         brush2.setStyle(Qt::SolidPattern);
         palette.setBrush(QPalette::Disabled, QPalette::Base, brush2);
         NotifyDialog->setPalette(palette);
+        QFont font;
+        font.setFamilies({QString::fromUtf8("Segoe UI Historic")});
+        NotifyDialog->setFont(font);
+        QIcon icon;
+        icon.addFile(QString::fromUtf8(":/Resources/Images/InformationIcon.png"), QSize(), QIcon::Normal, QIcon::Off);
+        NotifyDialog->setWindowIcon(icon);
+        NotifyDialog->setSizeGripEnabled(true);
+        NotifyDialog->setModal(false);
         buttonBox = new QDialogButtonBox(NotifyDialog);
         buttonBox->setObjectName("buttonBox");
         buttonBox->setGeometry(QRect(178, 156, 80, 24));
@@ -54,28 +61,16 @@ public:
         InformationIcon->setGeometry(QRect(30, 50, 50, 50));
         InformationIcon->setPixmap(QPixmap(QString::fromUtf8(":/Resources/Images/InformationIcon.png")));
         InformationIcon->setScaledContents(true);
-        lineEdit = new QLineEdit(NotifyDialog);
-        lineEdit->setObjectName("lineEdit");
-        lineEdit->setEnabled(true);
-        lineEdit->setGeometry(QRect(-10, 150, 291, 61));
-        QPalette palette1;
-        QBrush brush3(QColor(214, 214, 214, 255));
-        brush3.setStyle(Qt::SolidPattern);
-        palette1.setBrush(QPalette::Active, QPalette::Base, brush3);
-        palette1.setBrush(QPalette::Inactive, QPalette::Base, brush1);
-        palette1.setBrush(QPalette::Disabled, QPalette::Base, brush2);
-        lineEdit->setPalette(palette1);
         plainTextEdit = new QPlainTextEdit(NotifyDialog);
         plainTextEdit->setObjectName("plainTextEdit");
         plainTextEdit->setGeometry(QRect(100, 40, 151, 81));
-        QPalette palette2;
-        palette2.setBrush(QPalette::Active, QPalette::Base, brush1);
-        palette2.setBrush(QPalette::Inactive, QPalette::Base, brush1);
-        palette2.setBrush(QPalette::Disabled, QPalette::Base, brush2);
-        plainTextEdit->setPalette(palette2);
+        QPalette palette1;
+        palette1.setBrush(QPalette::Active, QPalette::Base, brush1);
+        palette1.setBrush(QPalette::Inactive, QPalette::Base, brush1);
+        palette1.setBrush(QPalette::Disabled, QPalette::Base, brush2);
+        plainTextEdit->setPalette(palette1);
         plainTextEdit->setFrameShape(QFrame::NoFrame);
         InformationIcon->raise();
-        lineEdit->raise();
         buttonBox->raise();
         plainTextEdit->raise();
 
@@ -88,10 +83,9 @@ public:
 
     void retranslateUi(QDialog *NotifyDialog)
     {
-        NotifyDialog->setWindowTitle(QCoreApplication::translate("NotifyDialog", "Dialog", nullptr));
+        NotifyDialog->setWindowTitle(QCoreApplication::translate("NotifyDialog", "Input Error", nullptr));
         InformationIcon->setText(QString());
-        lineEdit->setText(QString());
-        plainTextEdit->setPlainText(QCoreApplication::translate("NotifyDialog", "There is an Error\n"
+        plainTextEdit->setPlainText(QCoreApplication::translate("NotifyDialog", "You did not insert the FEN notation, please try again.\n"
 "", nullptr));
     } // retranslateUi
 

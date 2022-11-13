@@ -81,6 +81,14 @@ build CMakeFiles/FinalProject.dir/GUI/notifydialog.cpp.obj: CXX_COMPILER__FinalP
   OBJECT_DIR = CMakeFiles\FinalProject.dir
   OBJECT_FILE_DIR = CMakeFiles\FinalProject.dir\GUI
 
+build CMakeFiles/FinalProject.dir/GUI/board.cpp.obj: CXX_COMPILER__FinalProject_Debug D$:/Archivos$ de$ Aplicaciones/GitHub/Practicas$ Lenguajes$ de$ Programacion/FinalProject/GUI/board.cpp || cmake_object_order_depends_target_FinalProject
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\FinalProject.dir\GUI\board.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -I"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/include" -isystem C:/Qt/6.4.0/mingw_64/include/QtCore -isystem C:/Qt/6.4.0/mingw_64/include -isystem C:/Qt/6.4.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.4.0/mingw_64/include/QtGui -isystem C:/Qt/6.4.0/mingw_64/include/QtWidgets
+  OBJECT_DIR = CMakeFiles\FinalProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\FinalProject.dir\GUI
+
 build CMakeFiles/FinalProject.dir/Processing/Verify.cpp.obj: CXX_COMPILER__FinalProject_Debug D$:/Archivos$ de$ Aplicaciones/GitHub/Practicas$ Lenguajes$ de$ Programacion/FinalProject/Processing/Verify.cpp || cmake_object_order_depends_target_FinalProject
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\FinalProject.dir\Processing\Verify.cpp.obj.d
@@ -113,7 +121,7 @@ build CMakeFiles/FinalProject.dir/FinalProject_autogen/2LCCYRVYXB/qrc_Resource.c
 #############################################
 # Link the executable FinalProject.exe
 
-build FinalProject.exe: CXX_EXECUTABLE_LINKER__FinalProject_Debug CMakeFiles/FinalProject.dir/FinalProject_autogen/mocs_compilation.cpp.obj CMakeFiles/FinalProject.dir/main.cpp.obj CMakeFiles/FinalProject.dir/GUI/mainwindow.cpp.obj CMakeFiles/FinalProject.dir/GUI/notifydialog.cpp.obj CMakeFiles/FinalProject.dir/Processing/Verify.cpp.obj CMakeFiles/FinalProject.dir/Exceptions/Exception.cpp.obj CMakeFiles/FinalProject.dir/FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp.obj | C$:/Qt/6.4.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.4.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.4.0/mingw_64/lib/libQt6Core.a || FinalProject_autogen FinalProject_autogen_timestamp_deps
+build FinalProject.exe: CXX_EXECUTABLE_LINKER__FinalProject_Debug CMakeFiles/FinalProject.dir/FinalProject_autogen/mocs_compilation.cpp.obj CMakeFiles/FinalProject.dir/main.cpp.obj CMakeFiles/FinalProject.dir/GUI/mainwindow.cpp.obj CMakeFiles/FinalProject.dir/GUI/notifydialog.cpp.obj CMakeFiles/FinalProject.dir/GUI/board.cpp.obj CMakeFiles/FinalProject.dir/Processing/Verify.cpp.obj CMakeFiles/FinalProject.dir/Exceptions/Exception.cpp.obj CMakeFiles/FinalProject.dir/FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp.obj | C$:/Qt/6.4.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.4.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.4.0/mingw_64/lib/libQt6Core.a || FinalProject_autogen FinalProject_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = C:/Qt/6.4.0/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.4.0/mingw_64/lib/libQt6Gui.a  C:/Qt/6.4.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -ld3d11  -ldxgi  -ldxguid  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\FinalProject.dir
@@ -157,7 +165,7 @@ build FinalProject_autogen_timestamp_deps: phony CMakeFiles/FinalProject_autogen
 #############################################
 # Utility command for FinalProject_autogen
 
-build FinalProject_autogen: phony CMakeFiles/FinalProject_autogen FinalProject_autogen/include/GUI/ui_mainwindow.h FinalProject_autogen/include/GUI/ui_notifydialog.h FinalProject_autogen/timestamp FinalProject_autogen/mocs_compilation.cpp FinalProject_autogen_timestamp_deps
+build FinalProject_autogen: phony CMakeFiles/FinalProject_autogen FinalProject_autogen/include/GUI/ui_mainwindow.h FinalProject_autogen/include/GUI/ui_notifydialog.h FinalProject_autogen/include/GUI/ui_board.h FinalProject_autogen/timestamp FinalProject_autogen/mocs_compilation.cpp FinalProject_autogen_timestamp_deps
 
 
 #############################################
@@ -173,7 +181,7 @@ build FinalProject_autogen/timestamp FinalProject_autogen/mocs_compilation.cpp |
 #############################################
 # Custom command for FinalProject_autogen\2LCCYRVYXB\qrc_Resource.cpp
 
-build FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp | ${cmake_ninja_workdir}FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp: CUSTOM_COMMAND D$:/Archivos$ de$ Aplicaciones/GitHub/Practicas$ Lenguajes$ de$ Programacion/FinalProject/GUI/Resource.qrc CMakeFiles/FinalProject_autogen.dir/AutoRcc_Resource_2LCCYRVYXB_Info.json D$:/Archivos$ de$ Aplicaciones/GitHub/Practicas$ Lenguajes$ de$ Programacion/FinalProject/GUI/Images/InformationIcon.png C$:/Qt/6.4.0/mingw_64/./bin/rcc.exe || FinalProject_autogen FinalProject_autogen_timestamp_deps
+build FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp | ${cmake_ninja_workdir}FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp: CUSTOM_COMMAND D$:/Archivos$ de$ Aplicaciones/GitHub/Practicas$ Lenguajes$ de$ Programacion/FinalProject/GUI/Resource.qrc CMakeFiles/FinalProject_autogen.dir/AutoRcc_Resource_2LCCYRVYXB_Info.json D$:/Archivos$ de$ Aplicaciones/GitHub/Practicas$ Lenguajes$ de$ Programacion/FinalProject/GUI/Images/InformationIcon.png D$:/Archivos$ de$ Aplicaciones/GitHub/Practicas$ Lenguajes$ de$ Programacion/FinalProject/GUI/Images/White$ Queen.png D$:/Archivos$ de$ Aplicaciones/GitHub/Practicas$ Lenguajes$ de$ Programacion/FinalProject/GUI/Images/White$ Rook.png D$:/Archivos$ de$ Aplicaciones/GitHub/Practicas$ Lenguajes$ de$ Programacion/FinalProject/GUI/Images/White$ Pawn.png D$:/Archivos$ de$ Aplicaciones/GitHub/Practicas$ Lenguajes$ de$ Programacion/FinalProject/GUI/Images/Black$ Pawn.png D$:/Archivos$ de$ Aplicaciones/GitHub/Practicas$ Lenguajes$ de$ Programacion/FinalProject/GUI/Images/Black$ Knight.png D$:/Archivos$ de$ Aplicaciones/GitHub/Practicas$ Lenguajes$ de$ Programacion/FinalProject/GUI/Images/Black$ Rook.png D$:/Archivos$ de$ Aplicaciones/GitHub/Practicas$ Lenguajes$ de$ Programacion/FinalProject/GUI/Images/Chess$ Icon.png D$:/Archivos$ de$ Aplicaciones/GitHub/Practicas$ Lenguajes$ de$ Programacion/FinalProject/GUI/Images/Black$ Queen.png D$:/Archivos$ de$ Aplicaciones/GitHub/Practicas$ Lenguajes$ de$ Programacion/FinalProject/GUI/Images/Black$ King.png D$:/Archivos$ de$ Aplicaciones/GitHub/Practicas$ Lenguajes$ de$ Programacion/FinalProject/GUI/Images/Black$ Bishop.png D$:/Archivos$ de$ Aplicaciones/GitHub/Practicas$ Lenguajes$ de$ Programacion/FinalProject/GUI/Images/White$ King.png D$:/Archivos$ de$ Aplicaciones/GitHub/Practicas$ Lenguajes$ de$ Programacion/FinalProject/GUI/Images/White$ Bishop.png D$:/Archivos$ de$ Aplicaciones/GitHub/Practicas$ Lenguajes$ de$ Programacion/FinalProject/GUI/Images/White$ Knight.png C$:/Qt/6.4.0/mingw_64/./bin/rcc.exe || FinalProject_autogen FinalProject_autogen_timestamp_deps
   COMMAND = cmd.exe /C "cd /D "D:\Archivos de Aplicaciones\GitHub\Practicas Lenguajes de Programacion\FinalProject\cmake-build-debug-mingw" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc "D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/AutoRcc_Resource_2LCCYRVYXB_Info.json" Debug"
   DESC = Automatic RCC for GUI/Resource.qrc
   restat = 1
@@ -188,7 +196,7 @@ build CMakeFiles/FinalProject_autogen_timestamp_deps | ${cmake_ninja_workdir}CMa
 #############################################
 # Phony custom command for CMakeFiles\FinalProject_autogen
 
-build CMakeFiles/FinalProject_autogen FinalProject_autogen/include/GUI/ui_mainwindow.h FinalProject_autogen/include/GUI/ui_notifydialog.h | ${cmake_ninja_workdir}CMakeFiles/FinalProject_autogen ${cmake_ninja_workdir}FinalProject_autogen/include/GUI/ui_mainwindow.h ${cmake_ninja_workdir}FinalProject_autogen/include/GUI/ui_notifydialog.h: phony FinalProject_autogen/timestamp || FinalProject_autogen_timestamp_deps
+build CMakeFiles/FinalProject_autogen FinalProject_autogen/include/GUI/ui_mainwindow.h FinalProject_autogen/include/GUI/ui_notifydialog.h FinalProject_autogen/include/GUI/ui_board.h | ${cmake_ninja_workdir}CMakeFiles/FinalProject_autogen ${cmake_ninja_workdir}FinalProject_autogen/include/GUI/ui_mainwindow.h ${cmake_ninja_workdir}FinalProject_autogen/include/GUI/ui_notifydialog.h ${cmake_ninja_workdir}FinalProject_autogen/include/GUI/ui_board.h: phony FinalProject_autogen/timestamp || FinalProject_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

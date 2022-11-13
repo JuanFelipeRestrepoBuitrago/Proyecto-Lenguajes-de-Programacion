@@ -529,6 +529,8 @@ FinalProject_autogen/timestamp: \
 	D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/Exceptions/Exception.cpp \
 	D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/Exceptions/Exception.h \
 	D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/GUI/Resource.qrc \
+	D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/GUI/board.cpp \
+	D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/GUI/board.h \
 	D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/GUI/mainwindow.cpp \
 	D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/GUI/mainwindow.h \
 	D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/GUI/notifydialog.cpp \
@@ -541,6 +543,7 @@ FinalProject_autogen/timestamp: \
 	D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/cmake-build-debug-mingw/CMakeFiles/3.24.2/CMakeSystem.cmake \
 	D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/moc_predefs.h \
 	D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/main.cpp \
+	D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/GUI/board.ui \
 	D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/GUI/mainwindow.ui \
 	D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/GUI/notifydialog.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

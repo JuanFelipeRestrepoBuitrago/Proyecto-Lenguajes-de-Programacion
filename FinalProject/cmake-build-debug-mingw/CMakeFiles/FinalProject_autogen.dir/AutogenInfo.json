@@ -258,6 +258,12 @@
 			null
 		],
 		[
+			"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/board.h",
+			"MU",
+			"2LCCYRVYXB/moc_board.cpp",
+			null
+		],
+		[
 			"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/mainwindow.h",
 			"MU",
 			"2LCCYRVYXB/moc_mainwindow.cpp",
@@ -346,6 +352,11 @@
 	[
 		[
 			"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/Exceptions/Exception.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/board.cpp",
 			"MU",
 			null
 		],

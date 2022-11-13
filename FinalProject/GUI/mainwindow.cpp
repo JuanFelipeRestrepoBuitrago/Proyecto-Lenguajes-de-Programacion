@@ -2,7 +2,9 @@
 #include "./ui_mainwindow.h"
 #include "ui_mainwindow.h"
 #include "notifydialog.h"
+#include "board.h"
 #include "../Exceptions/Exception.h"
+#include <QResizeEvent>
 
 using namespace std;
 
@@ -18,6 +20,17 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::resizeEvent(QResizeEvent *e)
+{
+    int windowDefault = 346;
+    int textDefault = 25;
+
+    int windowActual = e->size().height();
+
+    int newTextSize = (int)textDefault*windowActual / windowDefault;
+    ui ->mainText->setFont(QFont("Times New Roman", newTextSize));
+}
+
 void MainWindow::on_verifyButton_clicked()
 {
     try{
@@ -25,11 +38,28 @@ void MainWindow::on_verifyButton_clicked()
         if (Qtext.toStdString() == ""){
             throw NoTextException();
         }else{
-            ui->mainText->hide();
-            ui->data->hide();
-            ui->verifyButton->hide();
+            ui->label->setText("Loading...");
+            Board *board = new Board();
+
+            string x[8][8] = {
+                {"r", "n", "b", "q", "k", "b", "n", "r"},
+                {"p", "p", "p", "p", "p", "p", "p", "p"},
+                {"", "", "", "", "", "", "", ""},
+                {"", "", "", "", "", "", "", ""},
+                {"", "", "", "", "", "", "", ""},
+                {"", "", "", "", "", "", "", ""},
+                {"P", "P", "P", "P", "P", "P", "P", "P"},
+                {"R", "N", "B", "K", "Q", "B", "N", "R"}
+            };
+            board->printBoard(x);
+            board->show();
+
+            this->close();
+
         }
-    }catch (NoTextException& e){
-        e.what();
+    }catch (const char* msg){
+        NotifyDialog dialog;
+
+        dialog.exec();
     }
 }

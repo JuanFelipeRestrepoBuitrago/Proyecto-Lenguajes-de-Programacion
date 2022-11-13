@@ -47,8 +47,23 @@
     </disabled>
    </palette>
   </property>
+  <property name="font">
+   <font>
+    <family>Segoe UI Historic</family>
+   </font>
+  </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Input Error</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Resource.qrc">
+    <normaloff>:/Resources/Images/InformationIcon.png</normaloff>:/Resources/Images/InformationIcon.png</iconset>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
   </property>
   <widget class="QDialogButtonBox" name="buttonBox">
    <property name="geometry">
@@ -83,59 +98,6 @@
    </property>
    <property name="scaledContents">
     <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit">
-   <property name="enabled">
-    <bool>true</bool>
-   </property>
-   <property name="geometry">
-    <rect>
-     <x>-10</x>
-     <y>150</y>
-     <width>291</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <property name="palette">
-    <palette>
-     <active>
-      <colorrole role="Base">
-       <brush brushstyle="SolidPattern">
-        <color alpha="255">
-         <red>214</red>
-         <green>214</green>
-         <blue>214</blue>
-        </color>
-       </brush>
-      </colorrole>
-     </active>
-     <inactive>
-      <colorrole role="Base">
-       <brush brushstyle="SolidPattern">
-        <color alpha="255">
-         <red>255</red>
-         <green>255</green>
-         <blue>255</blue>
-        </color>
-       </brush>
-      </colorrole>
-     </inactive>
-     <disabled>
-      <colorrole role="Base">
-       <brush brushstyle="SolidPattern">
-        <color alpha="255">
-         <red>240</red>
-         <green>240</green>
-         <blue>240</blue>
-        </color>
-       </brush>
-      </colorrole>
-     </disabled>
-    </palette>
-   </property>
-   <property name="text">
-    <string/>
    </property>
   </widget>
   <widget class="QPlainTextEdit" name="plainTextEdit">
@@ -188,12 +150,11 @@
     <enum>QFrame::NoFrame</enum>
    </property>
    <property name="plainText">
-    <string>There is an Error
+    <string>You did not insert the FEN notation, please try again.
 </string>
    </property>
   </widget>
   <zorder>InformationIcon</zorder>
-  <zorder>lineEdit</zorder>
   <zorder>buttonBox</zorder>
   <zorder>plainTextEdit</zorder>
  </widget>

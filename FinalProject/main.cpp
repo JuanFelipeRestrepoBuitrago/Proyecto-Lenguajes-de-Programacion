@@ -11,11 +11,7 @@ using namespace std;
 int main(int argc, char *argv[]){
     regex chessPattern(R"(((([1-7]?[PNBRQKpnbrqk][1-7]?){1,8}|8)/){7}(([1-7]?[PNBRQKpnbrqk][1-7]?){1,8}|8) (w|b) (-|[KQkq]{1,4}) ?(-|[a-h][36]) [0-9]{1,2} [1-9][0-9]{0,3})");
 
-    string chessBoard = "rnb76b7r/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
-
-    bool isMatch = Verify::verifyBoard(chessBoard);
-
-    cout << isMatch << endl;
+    string chessBoard = "r7/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
 
     QApplication a(argc, argv);
     MainWindow w;

@@ -13,8 +13,9 @@ using namespace std;
 
 class Verify {
 public:
-    static bool verifyBoard(string chessBoard);
+    static array<string, 8> verifyBoard(string chessBoard);
     static bool verifyRow(string row);
+    static string getRow(string chessBoard);
 };
 
 

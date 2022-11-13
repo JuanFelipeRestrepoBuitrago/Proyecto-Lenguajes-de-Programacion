@@ -22,6 +22,9 @@ add_executable(FinalProject
         GUI/notifydialog.cpp
         GUI/notifydialog.h
         GUI/notifydialog.ui
+        GUI/board.cpp
+        GUI/board.h
+        GUI/board.ui
         Processing/verify.cpp
         Processing/verify.h
         GUI/Resource.qrc
