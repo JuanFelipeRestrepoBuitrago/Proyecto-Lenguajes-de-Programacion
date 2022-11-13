@@ -17,7 +17,8 @@ class Board : public QMainWindow
 public:
     explicit Board(QWidget *parent = nullptr);
     ~Board();
-    void printBoard(string s[8][8]);
+    void printBoard(array<string, 8> s);
+    void printFEN(QString fen);
 protected:
     void resizeEvent(QResizeEvent *e);
 

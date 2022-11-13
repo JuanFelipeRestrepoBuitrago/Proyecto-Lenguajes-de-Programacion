@@ -4,6 +4,7 @@
 #include "notifydialog.h"
 #include "board.h"
 #include "../Exceptions/Exception.h"
+#include "../Processing/Verify.h"
 #include <QResizeEvent>
 
 using namespace std;
@@ -41,25 +42,14 @@ void MainWindow::on_verifyButton_clicked()
             ui->label->setText("Loading...");
             Board *board = new Board();
 
-            string x[8][8] = {
-                {"r", "n", "b", "q", "k", "b", "n", "r"},
-                {"p", "p", "p", "p", "p", "p", "p", "p"},
-                {"", "", "", "", "", "", "", ""},
-                {"", "", "", "", "", "", "", ""},
-                {"", "", "", "", "", "", "", ""},
-                {"", "", "", "", "", "", "", ""},
-                {"P", "P", "P", "P", "P", "P", "P", "P"},
-                {"R", "N", "B", "K", "Q", "B", "N", "R"}
-            };
-            board->printBoard(x);
+            board->printFEN(Qtext);
+            board->printBoard(Verify::verifyBoard(Qtext.toStdString()));
             board->show();
 
             this->close();
 
         }
-    }catch (const char* msg){
-        NotifyDialog dialog;
-
-        dialog.exec();
+    }catch (NoTextException &e){
+        e.what();
     }
 }

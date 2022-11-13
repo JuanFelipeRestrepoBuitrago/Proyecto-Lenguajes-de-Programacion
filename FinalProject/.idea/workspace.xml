@@ -17,55 +17,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72ab342e-efca-447d-a643-899264f4c8af" name="Changes" comment="Big Part of GUI">
-      <change afterPath="$PROJECT_DIR$/GUI/Images/Black Bishop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/Images/Black King.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/Images/Black Knight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/Images/Black Pawn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/Images/Black Queen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/Images/Black Rook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/Images/White Bishop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/Images/White King.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/Images/White Knight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/Images/White Pawn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/Images/White Queen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/Images/White Rook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/board.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/board.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/board.ui" afterDir="false" />
+    <list default="true" id="72ab342e-efca-447d-a643-899264f4c8af" name="Changes" comment="Finishing GUI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/Resource.qrc" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/Resource.qrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/board.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/board.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/board.h" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/board.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GUI/mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/mainwindow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/mainwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/mainwindow.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/mainwindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/mainwindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/notifydialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/notifydialog.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Processing/Verify.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Processing/Verify.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Processing/Verify.h" beforeDir="false" afterPath="$PROJECT_DIR$/Processing/Verify.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/codemodel-v2-2dbf99db795a2188f736.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/index-2022-11-10T01-38-18-0570.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-FinalProject-Debug-637bae681b5c7df879c3.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/FinalProject_autogen/mocs_compilation.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/FinalProject_autogen/mocs_compilation.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/GUI/board.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/GUI/board.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/GUI/mainwindow.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/GUI/mainwindow.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/GUI/notifydialog.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/GUI/notifydialog.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/Processing/Verify.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/Processing/Verify.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/AutoRcc_Resource_2LCCYRVYXB_Info.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/AutoRcc_Resource_2LCCYRVYXB_Info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/AutoRcc_Resource_2LCCYRVYXB_Used.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/AutoRcc_Resource_2LCCYRVYXB_Used.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/AutogenInfo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir/ParseCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/d/2cac91c4fbd5a4b4216f8a09b076f6b6811806bff2f7d13c059e697c19d93402.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/d/2cac91c4fbd5a4b4216f8a09b076f6b6811806bff2f7d13c059e697c19d93402.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/include/ui_mainwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/include/ui_mainwindow.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/include/ui_notifydialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/include/ui_notifydialog.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +105,7 @@
       <workItem from="1668209314627" duration="1652000" />
       <workItem from="1668264624427" duration="10967000" />
       <workItem from="1668362378651" duration="1752000" />
-      <workItem from="1668364171768" duration="902000" />
+      <workItem from="1668364171768" duration="2420000" />
     </task>
     <task id="LOCAL-00001" summary="Big Part of GUI">
       <created>1668266146931</created>
@@ -155,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668266414880</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finishing GUI">
+      <created>1668365537855</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668365537855</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,17 +147,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Big Part of GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Big Part of GUI" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>15</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Finishing GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing GUI" />
   </component>
 </project>

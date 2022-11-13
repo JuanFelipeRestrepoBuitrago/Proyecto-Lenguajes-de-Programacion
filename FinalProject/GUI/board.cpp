@@ -28,12 +28,12 @@ Board::~Board()
     delete ui;
 }
 
-void Board::printBoard(string s[8][8]){
+void Board::printBoard(array<string, 8> s) {
     regex piecesPattern(R"([PNBRQKpnbrqk])");
     for (int i = 0; i < 8; i++){
         for (int j = 0; j < 8; j++){
-            if(regex_match(s[i][j], piecesPattern)){
-                this->ui->tableWidget->item(i, j)->setIcon(this->icons[s[i][j]]);
+            if(regex_match(string(1, s[i][j]), piecesPattern)){
+                this->ui->tableWidget->item(i, j)->setIcon(this->icons[string(1, s[i][j])]);
             }
         }
     }
@@ -63,5 +63,9 @@ void Board::on_yesButton_clicked(){
 void Board::on_noButton_clicked()
 {
     this -> close();
+}
+
+void Board::printFEN(QString fen) {
+    ui->plainTextEdit->setPlainText(fen);
 }
 
