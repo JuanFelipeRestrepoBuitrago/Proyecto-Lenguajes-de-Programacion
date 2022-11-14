@@ -40,14 +40,23 @@ array<string, 8> Verify::verifyBoard(string chessBoard) {
 
 // Verify if a row length is valid
 bool Verify::verifyRow(string row) {
+//    int length = 0;
+//    for (int i = 0; i < row.size(); i++){
+//        if (isdigit(row[i])){
+//            length += stoi(string(1, row[i]));
+//        }else{
+//            length++;
+//        }
+//    }
     int length = 0;
-    for (int i = 0; i < row.size(); i++){
-        if (isdigit(row[i])){
-            length += stoi(string(1, row[i]));
+    for_each(row.begin(), row.end(), [&length](char & c){
+        if (isdigit(c)){
+            length += stoi(string(1, c));
         }else{
             length++;
         }
-    }
+    });
+
     if (length == 8){
         return true;
     } else {
@@ -57,19 +66,32 @@ bool Verify::verifyRow(string row) {
 
 // Get the row with the pieces correctly, without numbers
 string Verify::getRow(string chessBoard) {
-    for (int i = 0; i < chessBoard.size(); i++){
-        if (isdigit(chessBoard[i])){
-
-            int condition = stoi(string(1, chessBoard[i])) + i;
-            chessBoard.replace(i, 1, " ");
-            i++;
-
-            while (i < condition){
-                chessBoard.insert(i, " ");
-                i++;
+    string row = "";
+    for_each(chessBoard.begin(), chessBoard.end(), [&row](char & c){
+        if (isdigit(c)){
+            for (int i = 0; i < stoi(string(1, c)); i++){
+                row += " ";
             }
-        }
-    }
 
-    return chessBoard;
+        }else{
+            row += c;
+        }
+    });
+
+    return row;
+//    for (int i = 0; i < chessBoard.size(); i++){
+//        if (isdigit(chessBoard[i])){
+//
+//            int condition = stoi(string(1, chessBoard[i])) + i;
+//            chessBoard.replace(i, 1, " ");
+//            i++;
+//
+//            while (i < condition){
+//                chessBoard.insert(i, " ");
+//                i++;
+//            }
+//        }
+//    }
+//
+//    return chessBoard;
 }

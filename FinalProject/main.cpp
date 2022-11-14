@@ -8,5 +8,7 @@ using namespace std;
 
 int main(int argc, char *argv[]){
     Test::test(argc, argv);
+//    Test::testGetRowFunction();
+//    Test::testVerifyRowLengthFunction();
     return 0;
 }

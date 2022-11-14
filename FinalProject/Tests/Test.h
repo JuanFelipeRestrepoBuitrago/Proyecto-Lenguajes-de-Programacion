@@ -10,6 +10,8 @@
 class Test {
 public:
     static void test(int argc, char *argv[]);
+    static void testGetRowFunction();
+    static void testVerifyRowLengthFunction();
 };
 
 
