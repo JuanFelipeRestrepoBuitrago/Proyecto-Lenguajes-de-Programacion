@@ -9,6 +9,7 @@
 
 using namespace std;
 
+// This function is used to find the error in the input string
 void FindError::findError(string expression) {
     stringstream ss(expression);
     string word;
@@ -28,6 +29,7 @@ void FindError::findError(string expression) {
     string6(parts[5]);
 }
 
+// Searches for errors in the Piece Placement Section
 void FindError::string1(string expression) {
     regex rowsNumber(R"(^(.{1,8}/){7}.{1,8}$)");
     regex character(R"([PNBRQKpnbrqk1-8])");
@@ -49,6 +51,7 @@ void FindError::string1(string expression) {
     }
 }
 
+// Searches for errors in the Side to Move section
 void FindError::string2(string expression) {
     regex turn(R"(^(w|b)$)");
     if (expression == " " || expression == ""){
@@ -58,6 +61,7 @@ void FindError::string2(string expression) {
     }
 }
 
+// Searches for errors in the castling availability section
 void FindError::string3(string expression) {
     regex castling(R"(^([KQkq]{1,4}|-)$)");
     regex castlingCharacters(R"([KQkq])");
@@ -74,6 +78,7 @@ void FindError::string3(string expression) {
     }
 }
 
+// Searches for errors in the en passant section
 void FindError::string4(string expression) {
     regex enPassant(R"(^([a-h][36]|-)$)");
     regex enPassantOrder(R"(^\D\d$)");
@@ -96,6 +101,7 @@ void FindError::string4(string expression) {
     }
 }
 
+// This method searches for errors in the Halfmove Clock section
 void FindError::string5(string expression) {
     regex halfMove(R"(^\d{1,2}$)");
     regex halfMoveCharacters(R"(\d)");
@@ -116,6 +122,7 @@ void FindError::string5(string expression) {
     }
 }
 
+// This method searches for an error in the Fullmove Number section
 void FindError::string6(string expression) {
     try {
         if (expression == " " || expression == ""){

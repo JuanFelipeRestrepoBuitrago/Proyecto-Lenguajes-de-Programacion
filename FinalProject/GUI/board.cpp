@@ -7,6 +7,7 @@
 #include "mainwindow.h"
 #include "regex"
 
+// Constructor of the board, it also loads the pieces images
 Board::Board(QWidget *parent) :
         QMainWindow(parent),
         ui(new Ui::Board)
@@ -27,11 +28,13 @@ Board::Board(QWidget *parent) :
     ui->setupUi(this);
 }
 
+// Destructor
 Board::~Board()
 {
     delete ui;
 }
 
+// Prints the FEN expresion in the board, which is the table
 void Board::printBoard(array<string, 8> s) {
     regex piecesPattern(R"([PNBRQKpnbrqk])");
     for (int i = 0; i < 8; i++){
@@ -43,6 +46,7 @@ void Board::printBoard(array<string, 8> s) {
     }
 }
 
+// Resizes all the texts in the window
 void Board::resizeEvent(QResizeEvent *e)
 {
     int windowDefault = 650;
@@ -56,6 +60,7 @@ void Board::resizeEvent(QResizeEvent *e)
     this ->ui->plainTextEdit->setFont(QFont("Times New Roman", (int)plainTextDefault*windowActual / windowDefault));
 }
 
+// Button Click Handler, closes the current window and opens the main window
 void Board::on_yesButton_clicked(){
     MainWindow *mainWindow = new MainWindow();
 
@@ -64,11 +69,13 @@ void Board::on_yesButton_clicked(){
 }
 
 
+// Button Click Handler, closes the current window
 void Board::on_noButton_clicked()
 {
     this -> close();
 }
 
+// Prints the FEN expresion in the text box
 void Board::printFEN(QString fen) {
     ui->plainTextEdit->setPlainText(fen);
 }

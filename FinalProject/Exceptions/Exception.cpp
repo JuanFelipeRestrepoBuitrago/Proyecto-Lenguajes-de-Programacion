@@ -4,10 +4,10 @@
 
 #include "Exception.h"
 #include "../GUI/notifydialog.h"
-#include <iostream>
 
 using namespace std;
 
+// This exception is thrown when the user tries to run the program without a writing a text in the text box
 const char *NoTextException::what() const noexcept {
     NotifyDialog dialog;
 
@@ -19,10 +19,12 @@ const char *NoTextException::what() const noexcept {
     return "No text was entered, please try again.";
 }
 
+// Constructor
 InvalidLengthException::InvalidLengthException(string message) {
     this -> message = message;
 }
 
+// This exception is thrown when the length something is not right
 const char *InvalidLengthException::what() const noexcept {
     NotifyDialog dialog;
 
@@ -35,10 +37,12 @@ const char *InvalidLengthException::what() const noexcept {
     return "Length of row is invalid, please try again.";
 }
 
+// Constructor
 MissingSectionException::MissingSectionException(string message) {
     this -> message = message;
 }
 
+// This exception is thrown when a section is missing
 const char *MissingSectionException::what() const noexcept {
     NotifyDialog dialog;
 
@@ -51,6 +55,7 @@ const char *MissingSectionException::what() const noexcept {
     return "Section is missing, please try again.";
 }
 
+// This exception is thrown when the number of rows is not 8
 const char *RowsNumberException::what() const noexcept {
     NotifyDialog dialog;
 
@@ -63,12 +68,14 @@ const char *RowsNumberException::what() const noexcept {
     return "Number of rows in 'Piece Placement' Section is invalid, please try again.";
 }
 
+// Constructor
 InvalidCharacterException::InvalidCharacterException(string section, string character, string row) {
     this -> section = section;
     this -> character = character;
     this -> row = row;
 }
 
+// This exception is thrown when a character is not valid in a section
 const char *InvalidCharacterException::what() const noexcept {
     NotifyDialog dialog;
 
@@ -81,6 +88,7 @@ const char *InvalidCharacterException::what() const noexcept {
     return "Invalid character in Section, please try again.";
 }
 
+// This exception is thrown when the order of the En Passant is not right
 const char *OrderException::what() const noexcept {
     NotifyDialog dialog;
 
@@ -93,10 +101,11 @@ const char *OrderException::what() const noexcept {
     return "Number of rows in 'Piece Placement' Section is invalid, please try again.";
 }
 
+// This exception is thrown when the number of the Full Move Number is not right
 const char *InvalidNumberException::what() const noexcept {
     NotifyDialog dialog;
 
-    dialog.setWindowTitle("Cero Error");
+    dialog.setWindowTitle("Number Error");
 
     dialog.setPlainText(QString::fromStdString("The 'Fullmove' Section number must be greater than 0, please try again."));
     dialog.setModal(true);

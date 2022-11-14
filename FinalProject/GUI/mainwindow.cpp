@@ -13,6 +13,7 @@
 
 using namespace std;
 
+// Constructor
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -20,11 +21,13 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 }
 
+// Destructor
 MainWindow::~MainWindow()
 {
     delete ui;
 }
 
+// Resize Event Handler, resizes the font of the labels
 void MainWindow::resizeEvent(QResizeEvent *e)
 {
     int windowDefault = 346;
@@ -36,6 +39,7 @@ void MainWindow::resizeEvent(QResizeEvent *e)
     ui ->mainText->setFont(QFont("Times New Roman", newTextSize));
 }
 
+// Button Click Handler, verifies the input and shows the board or an error message
 void MainWindow::on_verifyButton_clicked()
 {
     try{

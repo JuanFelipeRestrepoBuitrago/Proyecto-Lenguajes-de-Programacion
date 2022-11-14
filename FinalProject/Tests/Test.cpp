@@ -6,6 +6,7 @@
 #include "../GUI/mainwindow.h"
 #include <QApplication>
 
+// This test is used to test everything in the GUI
 void Test::test(int argc, char *argv[]) {
     QApplication a(argc, argv);
     MainWindow w;

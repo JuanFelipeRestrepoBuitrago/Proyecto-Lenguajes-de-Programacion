@@ -9,7 +9,7 @@
 using namespace std;
 
 
-
+// Verify the FEN expression and return the error if there is one or return an array with the rows organized
 array<string, 8> Verify::verifyBoard(string chessBoard) {
     regex chessPattern(R"(((([1-7]?[PNBRQKpnbrqk][1-7]?){1,8}|8)/){7}(([1-7]?[PNBRQKpnbrqk][1-7]?){1,8}|8) (w|b) (-|[KQkq]{1,4}) ?(-|[a-h][36]) [0-9]{1,2} [1-9][0-9]{0,})");
 
@@ -38,6 +38,7 @@ array<string, 8> Verify::verifyBoard(string chessBoard) {
     }
 }
 
+// Verify if a row length is valid
 bool Verify::verifyRow(string row) {
     int length = 0;
     for (int i = 0; i < row.size(); i++){
@@ -54,6 +55,7 @@ bool Verify::verifyRow(string row) {
     }
 }
 
+// Get the row with the pieces correctly, without numbers
 string Verify::getRow(string chessBoard) {
     for (int i = 0; i < chessBoard.size(); i++){
         if (isdigit(chessBoard[i])){

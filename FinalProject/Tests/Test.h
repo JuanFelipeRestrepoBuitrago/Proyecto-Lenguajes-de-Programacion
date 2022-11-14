@@ -6,6 +6,7 @@
 #define FINALPROJECT_TEST_H
 
 
+// This class is used to test everything in the program
 class Test {
 public:
     static void test(int argc, char *argv[]);
