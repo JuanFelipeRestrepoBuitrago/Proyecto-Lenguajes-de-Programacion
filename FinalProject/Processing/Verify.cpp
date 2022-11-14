@@ -8,10 +8,10 @@
 
 using namespace std;
 
-// rnbkqbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+
 
 array<string, 8> Verify::verifyBoard(string chessBoard) {
-    regex chessPattern(R"(((([1-7]?[PNBRQKpnbrqk][1-7]?){1,8}|8)/){7}(([1-7]?[PNBRQKpnbrqk][1-7]?){1,8}|8) (w|b) (-|[KQkq]{1,4}) ?(-|[a-h][36]) [0-9]{1,2} [1-9][0-9]{0,3})");
+    regex chessPattern(R"(((([1-7]?[PNBRQKpnbrqk][1-7]?){1,8}|8)/){7}(([1-7]?[PNBRQKpnbrqk][1-7]?){1,8}|8) (w|b) (-|[KQkq]{1,4}) ?(-|[a-h][36]) [0-9]{1,2} [1-9][0-9]{0,})");
 
     bool isMatch = regex_match(chessBoard, chessPattern);
 
@@ -50,14 +50,18 @@ bool Verify::verifyRow(string row) {
     if (length == 8){
         return true;
     } else {
-        throw InvalidLengthException("Length of row '" + row + "' in Piece Placement Section is invalid, please try again");
+        throw InvalidLengthException("Length of row '" + row + "' in 'Piece Placement' Section is invalid, please try again.");
     }
 }
 
 string Verify::getRow(string chessBoard) {
     for (int i = 0; i < chessBoard.size(); i++){
         if (isdigit(chessBoard[i])){
+
             int condition = stoi(string(1, chessBoard[i])) + i;
+            chessBoard.replace(i, 1, " ");
+            i++;
+
             while (i < condition){
                 chessBoard.insert(i, " ");
                 i++;

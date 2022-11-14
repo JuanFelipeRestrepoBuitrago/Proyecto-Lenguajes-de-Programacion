@@ -64,5 +64,14 @@ void MainWindow::on_verifyButton_clicked()
     }catch (RowsNumberException &e) {
         ui->label->setText("");
         e.what();
+    }catch (InvalidCharacterException &e) {
+        ui->label->setText("");
+        e.what();
+    }catch (OrderException &e) {
+        ui->label->setText("");
+        e.what();
+    }catch (InvalidNumberException &e) {
+        ui->label->setText("");
+        e.what();
     }
 }

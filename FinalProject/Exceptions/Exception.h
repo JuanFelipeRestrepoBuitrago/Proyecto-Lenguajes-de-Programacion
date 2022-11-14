@@ -38,5 +38,24 @@ public:
     const char * what() const noexcept override;
 };
 
+class InvalidCharacterException: public exception {
+private:
+    string section;
+    string character;
+    string row;
+public:
+    InvalidCharacterException(string section, string character, string row);
+    const char * what() const noexcept override;
+};
+
+class OrderException: public exception {
+public:
+    const char * what() const noexcept override;
+};
+
+class InvalidNumberException: public exception {
+public:
+    const char * what() const noexcept override;
+};
 
 #endif //FINALPROJECT_EXCEPTION_H

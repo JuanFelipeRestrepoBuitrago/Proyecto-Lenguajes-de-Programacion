@@ -539,6 +539,8 @@ FinalProject_autogen/timestamp: \
   D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/Processing/FindError.h \
   D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/Processing/Verify.cpp \
   D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/Processing/Verify.h \
+  D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/Tests/Test.cpp \
+  D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/Tests/Test.h \
   CMakeFiles/3.24.2/CMakeCCompiler.cmake \
   CMakeFiles/3.24.2/CMakeCXXCompiler.cmake \
   CMakeFiles/3.24.2/CMakeRCCompiler.cmake \
