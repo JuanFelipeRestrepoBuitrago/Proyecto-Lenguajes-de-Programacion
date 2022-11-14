@@ -19,8 +19,8 @@ const char *NoTextException::what() const noexcept {
     return "No text was entered, please try again";
 }
 
-InvalidLengthException::InvalidLengthException(string row) {
-    this -> row = row;
+InvalidLengthException::InvalidLengthException(string message) {
+    this -> message = message;
 }
 
 const char *InvalidLengthException::what() const noexcept {
@@ -28,9 +28,37 @@ const char *InvalidLengthException::what() const noexcept {
 
     dialog.setWindowTitle("Length Error");
 
-    dialog.setPlainText(QString::fromStdString("Length of row '" + row + "' is invalid, please try again"));
+    dialog.setPlainText(QString::fromStdString(message));
     dialog.setModal(true);
     dialog.exec();
 
     return "Length of row is invalid, please try again";
+}
+
+MissingSectionException::MissingSectionException(string message) {
+    this -> message = message;
+}
+
+const char *MissingSectionException::what() const noexcept {
+    NotifyDialog dialog;
+
+    dialog.setWindowTitle("Section Error");
+
+    dialog.setPlainText(QString::fromStdString("Missing Section '" + message + "', please try again"));
+    dialog.setModal(true);
+    dialog.exec();
+
+    return "Section is missing, please try again";
+}
+
+const char *RowsNumberException::what() const noexcept {
+    NotifyDialog dialog;
+
+    dialog.setWindowTitle("Rows Error");
+
+    dialog.setPlainText(QString::fromStdString("Number of rows in 'Piece Placement' Section is invalid, please try again"));
+    dialog.setModal(true);
+    dialog.exec();
+
+    return "Number of rows in 'Piece Placement' Section is invalid, please try again";
 }

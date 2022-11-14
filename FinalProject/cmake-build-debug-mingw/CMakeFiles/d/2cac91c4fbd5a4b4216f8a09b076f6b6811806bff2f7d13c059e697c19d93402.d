@@ -535,6 +535,8 @@ FinalProject_autogen/timestamp: \
   D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/GUI/mainwindow.h \
   D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/GUI/notifydialog.cpp \
   D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/GUI/notifydialog.h \
+  D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/Processing/FindError.cpp \
+  D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/Processing/FindError.h \
   D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/Processing/Verify.cpp \
   D:/Archivos\ de\ Aplicaciones/GitHub/Practicas\ Lenguajes\ de\ Programacion/FinalProject/Processing/Verify.h \
   CMakeFiles/3.24.2/CMakeCCompiler.cmake \

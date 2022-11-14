@@ -1,96 +1,33 @@
 # ninja log v5
-29	551	6900754731595260	FinalProject_autogen/timestamp	25e27e442861500c
-29	551	6900754731595260	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-37	51	0	clean	a75175aaff807009
-29	551	6900754731595260	FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-862	3313	6900688539083511	CMakeFiles/FinalProject.dir/FinalProject_autogen/mocs_compilation.cpp.obj	e4e338050f852145
-6455	12141	6900754844906844	FinalProject.exe	839b51b3435b56f8
+15	576	6900878692691569	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
+15	576	6900878692691569	FinalProject_autogen/timestamp	25e27e442861500c
+4987	12489	6900874303761730	FinalProject.exe	4db8200c871a4adb
 5797	8933	6897409413292172	CMakeFiles/FinalProject.dir/Verification/Verify.cpp.obj	1500e51e047ec503
-29	551	6900754731595260	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/timestamp	25e27e442861500c
-297	4678	6900691306396707	CMakeFiles/FinalProject.dir/main.cpp.obj	2200c748b461e586
-3314	6631	6900688572150837	CMakeFiles/FinalProject.dir/Processing/Verify.cpp.obj	651a318541569b62
-568	6455	6900754790639499	CMakeFiles/FinalProject.dir/GUI/mainwindow.cpp.obj	abddcf68478bebce
-3412	6783	6899949203351800	CMakeFiles/FinalProject.dir/GUI/notifydialog.cpp.obj	2765a43593700dad
+37	51	0	clean	a75175aaff807009
+15	576	6900878692691569	FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
+1497	5184	6900768565863832	CMakeFiles/FinalProject.dir/FinalProject_autogen/mocs_compilation.cpp.obj	e4e338050f852145
+15	576	6900878692691569	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/timestamp	25e27e442861500c
+614	5770	6900878744536692	CMakeFiles/FinalProject.dir/Processing/Verify.cpp.obj	651a318541569b62
+582	4021	6900865189318495	CMakeFiles/FinalProject.dir/main.cpp.obj	2200c748b461e586
+597	5346	6900878740400176	CMakeFiles/FinalProject.dir/GUI/mainwindow.cpp.obj	abddcf68478bebce
+1510	5753	6900768571557942	CMakeFiles/FinalProject.dir/GUI/notifydialog.cpp.obj	2765a43593700dad
 0	37	0	CMakeFiles/clean.additional	baedbe210acaa455
 3152	3409	6899949169581469	FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp	9c0218ca78e382b3
 3152	3409	6899949169581469	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp	9c0218ca78e382b3
 7151	8354	6899949219079849	CMakeFiles/FinalProject.dir/FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp.obj	b11b98eb526ba03e
-6784	9208	6899949227617828	CMakeFiles/FinalProject.dir/Exceptions/Exception.cpp.obj	55c53db088203432
-312	6265	6900690346753708	CMakeFiles/FinalProject.dir/GUI/board.cpp.obj	88d91e5bfdd9937c
-15	1461	6900757563429925	FinalProject_autogen/timestamp	25e27e442861500c
-15	1461	6900757563429925	FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-15	1461	6900757563429925	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/timestamp	25e27e442861500c
-15	1461	6900757563429925	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-1461	4887	6900757601047016	CMakeFiles/FinalProject.dir/FinalProject_autogen/mocs_compilation.cpp.obj	e4e338050f852145
-1469	6013	6900757612308160	CMakeFiles/FinalProject.dir/GUI/mainwindow.cpp.obj	abddcf68478bebce
-1476	9646	6900757648230862	CMakeFiles/FinalProject.dir/GUI/board.cpp.obj	88d91e5bfdd9937c
-9646	15583	6900757705426919	FinalProject.exe	839b51b3435b56f8
-15	1496	6900768526033552	FinalProject_autogen/timestamp	25e27e442861500c
-15	1496	6900768526033552	FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-15	1496	6900768526033552	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/timestamp	25e27e442861500c
-15	1496	6900768526033552	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-1497	5184	6900768565863832	CMakeFiles/FinalProject.dir/FinalProject_autogen/mocs_compilation.cpp.obj	e4e338050f852145
-1510	5753	6900768571557942	CMakeFiles/FinalProject.dir/GUI/notifydialog.cpp.obj	2765a43593700dad
-1519	6166	6900768575675369	CMakeFiles/FinalProject.dir/GUI/mainwindow.cpp.obj	abddcf68478bebce
-1503	7702	6900768590978872	CMakeFiles/FinalProject.dir/main.cpp.obj	2200c748b461e586
-5753	8144	6900768595469050	CMakeFiles/FinalProject.dir/Exceptions/Exception.cpp.obj	55c53db088203432
-6166	9520	6900768609143604	CMakeFiles/FinalProject.dir/Processing/Verify.cpp.obj	651a318541569b62
+622	4213	6900878729078894	CMakeFiles/FinalProject.dir/Exceptions/Exception.cpp.obj	55c53db088203432
 5184	11402	6900768627922275	CMakeFiles/FinalProject.dir/GUI/board.cpp.obj	88d91e5bfdd9937c
-11402	16757	6900768679552951	FinalProject.exe	839b51b3435b56f8
-21	589	6900769600347591	FinalProject_autogen/timestamp	25e27e442861500c
-21	589	6900769600347591	FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-21	589	6900769600347591	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/timestamp	25e27e442861500c
-21	589	6900769600347591	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-612	5986	6900769654246448	CMakeFiles/FinalProject.dir/Processing/Verify.cpp.obj	651a318541569b62
-5987	11882	6900769711413725	FinalProject.exe	839b51b3435b56f8
-15	498	6900770412108136	FinalProject_autogen/timestamp	25e27e442861500c
-15	498	6900770412108136	FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-15	498	6900770412108136	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/timestamp	25e27e442861500c
-15	498	6900770412108136	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-520	5355	6900770460719867	CMakeFiles/FinalProject.dir/GUI/mainwindow.cpp.obj	abddcf68478bebce
-5356	12520	6900770530294444	FinalProject.exe	839b51b3435b56f8
-15	645	6900771462241804	FinalProject_autogen/timestamp	25e27e442861500c
-15	645	6900771462241804	FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-15	645	6900771462241804	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/timestamp	25e27e442861500c
-15	645	6900771462241804	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-666	4327	6900771499194503	CMakeFiles/FinalProject.dir/Exceptions/Exception.cpp.obj	55c53db088203432
-4328	10443	6900771558018464	FinalProject.exe	839b51b3435b56f8
-13	468	6900773550012160	FinalProject_autogen/timestamp	25e27e442861500c
-13	468	6900773550012160	FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-13	468	6900773550012160	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/timestamp	25e27e442861500c
-13	468	6900773550012160	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-485	3812	6900773583471927	CMakeFiles/FinalProject.dir/Exceptions/Exception.cpp.obj	55c53db088203432
-3812	9599	6900773639229377	FinalProject.exe	839b51b3435b56f8
-14	495	6900775338553862	FinalProject_autogen/timestamp	25e27e442861500c
-14	495	6900775338553862	FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-14	495	6900775338553862	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/timestamp	25e27e442861500c
-14	495	6900775338553862	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-524	4078	6900775374410596	CMakeFiles/FinalProject.dir/Exceptions/Exception.cpp.obj	55c53db088203432
-516	7514	6900775408669443	CMakeFiles/FinalProject.dir/main.cpp.obj	2200c748b461e586
-7514	13427	6900775466100022	FinalProject.exe	839b51b3435b56f8
-23	636	6900776024702045	FinalProject_autogen/timestamp	25e27e442861500c
-23	636	6900776024702045	FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-23	636	6900776024702045	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/timestamp	25e27e442861500c
-23	636	6900776024702045	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-653	4057	6900776058912416	CMakeFiles/FinalProject.dir/Exceptions/Exception.cpp.obj	55c53db088203432
-4058	9927	6900776115727116	FinalProject.exe	839b51b3435b56f8
-14	530	6900777432178942	FinalProject_autogen/timestamp	25e27e442861500c
-14	530	6900777432178942	FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-14	530	6900777432178942	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/timestamp	25e27e442861500c
-14	530	6900777432178942	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-547	3893	6900777465834836	CMakeFiles/FinalProject.dir/Exceptions/Exception.cpp.obj	55c53db088203432
-3894	9518	6900777519966773	FinalProject.exe	839b51b3435b56f8
-13	544	6900781006104531	FinalProject_autogen/timestamp	25e27e442861500c
-13	544	6900781006104531	FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-13	544	6900781006104531	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/timestamp	25e27e442861500c
-13	544	6900781006104531	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-575	4051	6900781041186753	CMakeFiles/FinalProject.dir/Exceptions/Exception.cpp.obj	55c53db088203432
-565	5157	6900781052257641	CMakeFiles/FinalProject.dir/GUI/mainwindow.cpp.obj	abddcf68478bebce
-582	5625	6900781056828296	CMakeFiles/FinalProject.dir/Processing/Verify.cpp.obj	651a318541569b62
-5626	11578	6900781114600284	FinalProject.exe	839b51b3435b56f8
-13	662	6900781438559197	FinalProject_autogen/timestamp	25e27e442861500c
-13	662	6900781438559197	FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-13	662	6900781438559197	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/timestamp	25e27e442861500c
-13	662	6900781438559197	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
-679	4047	6900781472406665	CMakeFiles/FinalProject.dir/Exceptions/Exception.cpp.obj	55c53db088203432
-4047	9525	6900781525235726	FinalProject.exe	839b51b3435b56f8
+624	4986	6900874230506884	CMakeFiles/FinalProject.dir/Processing/FindError.cpp.obj	d3bb6231cfb10b0b
+14	616	6900879229367961	FinalProject_autogen/timestamp	25e27e442861500c
+14	616	6900879229367961	FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
+14	616	6900879229367961	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/timestamp	25e27e442861500c
+14	616	6900879229367961	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
+636	5763	6900879280717123	CMakeFiles/FinalProject.dir/Processing/FindError.cpp.obj	d3bb6231cfb10b0b
+5763	13169	6900879353044385	FinalProject.exe	4db8200c871a4adb
+14	569	6900880714529470	FinalProject_autogen/timestamp	25e27e442861500c
+14	569	6900880714529470	FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
+14	569	6900880714529470	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/timestamp	25e27e442861500c
+14	569	6900880714529470	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/FinalProject_autogen/mocs_compilation.cpp	25e27e442861500c
+600	4061	6900880749462984	CMakeFiles/FinalProject.dir/Exceptions/Exception.cpp.obj	55c53db088203432
+590	5114	6900880759978518	CMakeFiles/FinalProject.dir/GUI/mainwindow.cpp.obj	abddcf68478bebce
+5114	12526	6900880832183699	FinalProject.exe	4db8200c871a4adb

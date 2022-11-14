@@ -4,8 +4,11 @@
 
 #include "Verify.h"
 #include "../Exceptions/Exception.h"
+#include "FindError.h"
 
 using namespace std;
+
+// rnbkqbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 
 array<string, 8> Verify::verifyBoard(string chessBoard) {
     regex chessPattern(R"(((([1-7]?[PNBRQKpnbrqk][1-7]?){1,8}|8)/){7}(([1-7]?[PNBRQKpnbrqk][1-7]?){1,8}|8) (w|b) (-|[KQkq]{1,4}) ?(-|[a-h][36]) [0-9]{1,2} [1-9][0-9]{0,3})");
@@ -24,14 +27,13 @@ array<string, 8> Verify::verifyBoard(string chessBoard) {
         while (getline(a, row, '/')){
             if (verifyRow(row)){
                 rows[i] = getRow(row);
-            } else {
-                return {"", "", "", "", "", "", "", ""};
             }
             i++;
         }
 
         return rows;
     } else {
+        FindError::findError(chessBoard);
         return {"", "", "", "", "", "", "", ""};
     }
 }
@@ -48,7 +50,7 @@ bool Verify::verifyRow(string row) {
     if (length == 8){
         return true;
     } else {
-        throw InvalidLengthException(row);
+        throw InvalidLengthException("Length of row '" + row + "' in Piece Placement Section is invalid, please try again");
     }
 }
 

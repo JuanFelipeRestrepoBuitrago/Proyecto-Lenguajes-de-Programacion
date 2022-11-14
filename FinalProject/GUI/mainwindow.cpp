@@ -58,5 +58,11 @@ void MainWindow::on_verifyButton_clicked()
     }catch (InvalidLengthException &e){
         ui->label->setText("");
         e.what();
+    }catch (MissingSectionException &e) {
+        ui->label->setText("");
+        e.what();
+    }catch (RowsNumberException &e) {
+        ui->label->setText("");
+        e.what();
     }
 }

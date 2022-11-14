@@ -28,7 +28,7 @@ add_executable(FinalProject
         Processing/verify.cpp
         Processing/verify.h
         GUI/Resource.qrc
-        Exceptions/Exception.cpp Exceptions/Exception.h)
+        Exceptions/Exception.cpp Exceptions/Exception.h Processing/FindError.cpp Processing/FindError.h)
 
 target_link_libraries(FinalProject
         Qt::Core

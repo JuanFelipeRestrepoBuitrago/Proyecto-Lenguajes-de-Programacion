@@ -18,11 +18,24 @@ public:
 
 class InvalidLengthException: public exception {
 private:
-    string row;
+    string message;
 public:
-    explicit InvalidLengthException(string row);
+    explicit InvalidLengthException(string message);
     const char * what() const noexcept override;
 
+};
+
+class MissingSectionException: public exception {
+private:
+    string message;
+public:
+    explicit MissingSectionException(string message);
+    const char * what() const noexcept override;
+};
+
+class RowsNumberException: public exception {
+public:
+    const char * what() const noexcept override;
 };
 
 
