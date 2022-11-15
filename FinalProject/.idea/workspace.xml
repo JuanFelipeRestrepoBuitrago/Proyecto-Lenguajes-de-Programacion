@@ -17,24 +17,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72ab342e-efca-447d-a643-899264f4c8af" name="Changes" comment="Adding Comments">
+    <list default="true" id="72ab342e-efca-447d-a643-899264f4c8af" name="Changes" comment="Changing for Some Functional Programming">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Processing/Verify.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Processing/Verify.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Test.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Test.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/Exceptions/Exception.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/Exceptions/Exception.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/GUI/board.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/GUI/board.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/GUI/mainwindow.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/GUI/mainwindow.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/GUI/notifydialog.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/GUI/notifydialog.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/Processing/FindError.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/Processing/FindError.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/Processing/Verify.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/Processing/Verify.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/Tests/Test.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/Tests/Test.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/FinalProject.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,11 +74,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -113,7 +93,8 @@
       <workItem from="1668264624427" duration="10967000" />
       <workItem from="1668362378651" duration="1752000" />
       <workItem from="1668364171768" duration="10225000" />
-      <workItem from="1668438140779" duration="11247000" />
+      <workItem from="1668438140779" duration="12122000" />
+      <workItem from="1668480023774" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="Big Part of GUI">
       <created>1668266146931</created>
@@ -171,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668454553203</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Changing for Some Functional Programming">
+      <created>1668457026125</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668457026125</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +184,8 @@
     <MESSAGE value="Starting Find Errors Methods" />
     <MESSAGE value="Finishing Project&#10;&#10;Now I have finished this project, it does whatever it needs to. Also, comments and a little of functional programming could be good." />
     <MESSAGE value="Adding Comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Comments" />
+    <MESSAGE value="Changing for Some Functional Programming" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing for Some Functional Programming" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
