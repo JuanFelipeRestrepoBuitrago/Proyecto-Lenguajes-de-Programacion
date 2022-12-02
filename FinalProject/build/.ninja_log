@@ -1,0 +1,33 @@
+# ninja log v5
+6	1645	6916464658380117	FinalProject_autogen/timestamp	ec39da7230a7aa2
+7321	9687	6916464742864055	CMakeFiles/FinalProject.dir/FinalProject_autogen/mocs_compilation.cpp.obj	a139d58ac1050bf2
+6	1645	6916464658380117	FinalProject_autogen/mocs_compilation.cpp	ec39da7230a7aa2
+6	1645	6916464658380117	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/build/FinalProject_autogen/timestamp	ec39da7230a7aa2
+6	1645	6916464658380117	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/build/FinalProject_autogen/mocs_compilation.cpp	ec39da7230a7aa2
+1645	1802	6916464663960749	FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp	da0d9510814b5b8a
+1645	1802	6916464663960749	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/build/FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp	da0d9510814b5b8a
+1881	6581	6916464711680221	CMakeFiles/FinalProject.dir/Processing/Verify.cpp.obj	192b2a0043c46a8
+1802	1881	6916464664800242	CMakeFiles/FinalProject.dir/main.cpp.obj	696fccfe8580398f
+1814	5280	6916464698779711	CMakeFiles/FinalProject.dir/Exceptions/Exception.cpp.obj	b5fad6e3da504b22
+1810	5853	6916464704511332	CMakeFiles/FinalProject.dir/GUI/notifydialog.cpp.obj	4a53a36da3813208
+1806	6181	6916464707778340	CMakeFiles/FinalProject.dir/GUI/mainwindow.cpp.obj	4eca0160a3bb9cec
+6182	7320	6916464719220976	CMakeFiles/FinalProject.dir/FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp.obj	4020bd36b6fd313f
+6582	9233	6916464738329365	CMakeFiles/FinalProject.dir/Tests/Test.cpp.obj	37215793d4334860
+5853	9517	6916464741063218	CMakeFiles/FinalProject.dir/Processing/FindError.cpp.obj	7a92bb1841c538f7
+5284	11577	6916464761665197	CMakeFiles/FinalProject.dir/GUI/board.cpp.obj	ffa59817793ce473
+11577	17155	6916464815784668	FinalProject.exe	f6d9b312b74a5ad7
+5	983	6916467475355671	build.ninja	dfb3985fd14fa016
+50	519	6916467481372498	FinalProject_autogen/timestamp	ec39da7230a7aa2
+50	519	6916467481372498	FinalProject_autogen/mocs_compilation.cpp	ec39da7230a7aa2
+50	519	6916467481372498	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/build/FinalProject_autogen/timestamp	ec39da7230a7aa2
+50	519	6916467481372498	D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/build/FinalProject_autogen/mocs_compilation.cpp	ec39da7230a7aa2
+534	2875	6916467500429278	CMakeFiles/FinalProject.dir/FinalProject_autogen/2LCCYRVYXB/qrc_Resource.cpp.obj	4020bd36b6fd313f
+2876	3179	6916467507934465	CMakeFiles/FinalProject.dir/main.cpp.obj	696fccfe8580398f
+546	4763	6916467523763954	CMakeFiles/FinalProject.dir/Tests/Test.cpp.obj	37215793d4334860
+541	6370	6916467539792287	CMakeFiles/FinalProject.dir/Processing/FindError.cpp.obj	7a92bb1841c538f7
+3179	7449	6916467550650957	CMakeFiles/FinalProject.dir/GUI/mainwindow.cpp.obj	4eca0160a3bb9cec
+4764	8395	6916467560135248	CMakeFiles/FinalProject.dir/GUI/notifydialog.cpp.obj	4a53a36da3813208
+557	9256	6916467568614210	CMakeFiles/FinalProject.dir/GUI/board.cpp.obj	ffa59817793ce473
+7449	10349	6916467579681149	CMakeFiles/FinalProject.dir/Exceptions/Exception.cpp.obj	b5fad6e3da504b22
+6370	10551	6916467581598348	CMakeFiles/FinalProject.dir/Processing/Verify.cpp.obj	192b2a0043c46a8
+10551	16681	6916467641159609	FinalProject.exe	f6d9b312b74a5ad7

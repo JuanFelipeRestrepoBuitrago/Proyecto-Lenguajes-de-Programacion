@@ -1,5 +1,0 @@
-D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/CMakeFiles/FinalProject.dir
-D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
-D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
-D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen_timestamp_deps.dir
-D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/cmake-build-debug-mingw/CMakeFiles/FinalProject_autogen.dir

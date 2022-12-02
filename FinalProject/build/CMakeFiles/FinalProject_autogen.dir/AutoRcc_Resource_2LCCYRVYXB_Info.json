@@ -1,0 +1,35 @@
+{
+	"BUILD_DIR" : "D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/build/FinalProject_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject",
+	"CMAKE_SOURCE_DIR" : "D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject",
+	"INCLUDE_DIR" : "D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/build/FinalProject_autogen/include",
+	"INPUTS" : 
+	[
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/InformationIcon.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/White Queen.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/White Rook.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/White Pawn.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/Black Pawn.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/Black Knight.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/Black Rook.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/Chess Icon.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/Black Queen.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/Black King.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/Black Bishop.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/White King.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/White Bishop.png",
+		"D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Images/White Knight.png"
+	],
+	"LOCK_FILE" : "D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/build/CMakeFiles/FinalProject_autogen.dir/AutoRcc_Resource_2LCCYRVYXB_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "Resource" ],
+	"OUTPUT_CHECKSUM" : "2LCCYRVYXB",
+	"OUTPUT_NAME" : "qrc_Resource.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.4.0/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/build/CMakeFiles/FinalProject_autogen.dir/AutoRcc_Resource_2LCCYRVYXB_Used.txt",
+	"SOURCE" : "D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/GUI/Resource.qrc",
+	"VERBOSITY" : 0
+}

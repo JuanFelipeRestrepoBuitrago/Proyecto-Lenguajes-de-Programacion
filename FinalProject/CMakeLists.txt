@@ -14,8 +14,7 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(FinalProject
-        main.cpp
+set(SOURCE_FILES main.cpp
         GUI/mainwindow.ui
         GUI/mainwindow.h
         GUI/mainwindow.cpp
@@ -29,6 +28,8 @@ add_executable(FinalProject
         Processing/verify.h
         GUI/Resource.qrc
         Exceptions/Exception.cpp Exceptions/Exception.h Processing/FindError.cpp Processing/FindError.h Tests/Test.cpp Tests/Test.h)
+
+add_executable(FinalProject ${SOURCE_FILES})
 
 target_link_libraries(FinalProject
         Qt::Core

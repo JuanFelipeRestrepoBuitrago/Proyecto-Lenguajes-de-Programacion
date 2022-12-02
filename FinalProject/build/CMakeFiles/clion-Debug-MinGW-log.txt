@@ -1,0 +1,5 @@
+C:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/Aplicaciones/JetBrains/ToolBox/apps/CLion/ch-0/223.7571.171/bin/ninja/win/ninja.exe -G Ninja -S "D:\Archivos de Aplicaciones\GitHub\Practicas Lenguajes de Programacion\FinalProject" -B "D:\Archivos de Aplicaciones\GitHub\Practicas Lenguajes de Programacion\FinalProject\build"
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Archivos de Aplicaciones/GitHub/Practicas Lenguajes de Programacion/FinalProject/build
